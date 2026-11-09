@@ -1,0 +1,63 @@
+{
+  "M2_Q1": {
+    "largest_absolute_gap_borough": "QUEENS",
+    "crash_minus_housing_share_pp": 11.68
+  },
+  "M2_Q2": {
+    "n_borough_years": 18,
+    "spearman_rho": 0.422
+  },
+  "M3_Q1": {
+    "BRONX": {
+      "counted_units": 57.25,
+      "crash_count": -9.5
+    },
+    "BROOKLYN": {
+      "counted_units": 29.46,
+      "crash_count": -0.68
+    },
+    "MANHATTAN": {
+      "counted_units": 96.84,
+      "crash_count": 2.81
+    },
+    "QUEENS": {
+      "counted_units": 120.12,
+      "crash_count": 13.97
+    },
+    "STATEN ISLAND": {
+      "counted_units": 8239.39,
+      "crash_count": -8.61
+    }
+  },
+  "M3_Q2": {
+    "n_matched_zip_years": 306,
+    "pooled_spearman_rho": 0.196,
+    "borough_correlations": [
+      {
+        "borough": "BRONX",
+        "n_zip_years": 58,
+        "spearman_rho": 0.31713618258109016
+      },
+      {
+        "borough": "BROOKLYN",
+        "n_zip_years": 94,
+        "spearman_rho": -0.009338126773152418
+      },
+      {
+        "borough": "MANHATTAN",
+        "n_zip_years": 75,
+        "spearman_rho": 0.22628369341305782
+      },
+      {
+        "borough": "QUEENS",
+        "n_zip_years": 69,
+        "spearman_rho": 0.0047582382955170905
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "n_zip_years": 10,
+        "spearman_rho": 0.5062114182829147
+      }
+    ]
+  }
+}

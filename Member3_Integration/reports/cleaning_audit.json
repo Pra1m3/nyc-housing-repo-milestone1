@@ -1,0 +1,94 @@
+{
+  "housing": {
+    "input_rows": 9551,
+    "input_columns": 41,
+    "exact_duplicates_removed": 0,
+    "invalid_numeric_counts": {
+      "low_income_units": 0,
+      "_1_br_units": 0,
+      "counted_rental_units": 0,
+      "all_counted_units": 0,
+      "total_units": 0,
+      "extremely_low_income_units": 0,
+      "other_income_units": 0,
+      "studio_units": 0,
+      "very_low_income_units": 0,
+      "_2_br_units": 0,
+      "_3_br_units": 0,
+      "moderate_income_units": 0,
+      "counted_homeownership_units": 0,
+      "middle_income_units": 0,
+      "unknown_br_units": 0,
+      "_4_br_units": 0,
+      "_5_br_units": 0,
+      "_6_br_units": 0
+    },
+    "total_units_iqr": {
+      "lower": -60.0,
+      "upper": 108.0,
+      "q1": 3.0,
+      "q3": 45.0
+    },
+    "clean_rows": 9551,
+    "excluded_rows": 0,
+    "missing_zip": 1958,
+    "missing_borough": 0,
+    "unit_outliers": 1171,
+    "counted_exceeds_total": 0,
+    "completion_before_start": 5
+  },
+  "transport": {
+    "input_rows": 13754,
+    "input_columns": 23,
+    "exact_duplicates_removed": 3,
+    "invalid_numeric_counts": {
+      "total_non_severe_injuries": 0,
+      "total_severe_injuries": 0,
+      "total_fatalities": 0
+    },
+    "severity_iqr": {
+      "lower": 1.0,
+      "upper": 1.0,
+      "q1": 1.0,
+      "q3": 1.0
+    },
+    "conflicting_id_rows": 2,
+    "excluded_rows": 443,
+    "clean_rows": 13308,
+    "missing_borough": 55,
+    "missing_zip": 5280,
+    "missing_collision_id": 0,
+    "severity_outliers": 958
+  },
+  "borough_join": {
+    "both": 25,
+    "left_only": 40,
+    "right_only": 0
+  },
+  "zip_join": {
+    "both": 484,
+    "left_only": 671,
+    "right_only": 340,
+    "borough_mismatches": 0
+  },
+  "ambiguous_housing_zips": [
+    "10463"
+  ],
+  "ambiguous_transport_zips": [
+    "11237",
+    "11385"
+  ],
+  "primary_analysis_cells": 20,
+  "zip_analysis_cells": 308,
+  "primary_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "zip_secondary_years": [
+    2023,
+    2024,
+    2025
+  ]
+}

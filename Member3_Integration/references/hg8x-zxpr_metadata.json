@@ -1,0 +1,3189 @@
+{
+  "id" : "hg8x-zxpr",
+  "name" : "Affordable Housing Production by Building",
+  "assetType" : "dataset",
+  "attribution" : "Department of Housing Preservation and Development (HPD)",
+  "averageRating" : 0,
+  "category" : "Housing & Development",
+  "createdAt" : 1481654647,
+  "description" : "The Department of Housing Preservation and Development (HPD) reports on projects, buildings, and units that began after January 1, 2014, and are counted towards either the Housing New York plan (1/1/2014 – 12/31/2021) or the Housing Our Neighbors: A Blueprint for Housing & Homelessness plan (1/1/2022 – present).",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 48380,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 37196151,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1621366938,
+  "publicationGroup" : 13948280,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1790796111,
+  "rowsUpdatedBy" : "d2qk-x9en",
+  "tableId" : 18308085,
+  "totalTimesRated" : 0,
+  "viewCount" : 105710,
+  "viewLastModified" : 1790796103,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1525366174,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 3625289,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1525366174,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 540785731,
+    "name" : "Project ID",
+    "dataTypeName" : "text",
+    "description" : "The Project ID is a unique numeric identifier assigned to each project by HPD.",
+    "fieldName" : "project_id",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 41431859,
+    "width" : 220,
+    "cachedContents" : {
+      "non_null" : "9551",
+      "largest" : "82249",
+      "null" : "0",
+      "top" : [ {
+        "item" : "75173",
+        "count" : "114"
+      }, {
+        "item" : "53017",
+        "count" : "83"
+      }, {
+        "item" : "68530",
+        "count" : "79"
+      }, {
+        "item" : "66670",
+        "count" : "79"
+      }, {
+        "item" : "53157",
+        "count" : "75"
+      }, {
+        "item" : "73500",
+        "count" : "59"
+      }, {
+        "item" : "52756",
+        "count" : "56"
+      }, {
+        "item" : "59857",
+        "count" : "56"
+      }, {
+        "item" : "75182",
+        "count" : "52"
+      }, {
+        "item" : "75421",
+        "count" : "52"
+      }, {
+        "item" : "69490",
+        "count" : "48"
+      }, {
+        "item" : "58513",
+        "count" : "48"
+      }, {
+        "item" : "67403",
+        "count" : "46"
+      }, {
+        "item" : "58860",
+        "count" : "43"
+      }, {
+        "item" : "64268",
+        "count" : "41"
+      }, {
+        "item" : "58891",
+        "count" : "40"
+      }, {
+        "item" : "67483",
+        "count" : "40"
+      }, {
+        "item" : "63840",
+        "count" : "35"
+      }, {
+        "item" : "65227",
+        "count" : "33"
+      }, {
+        "item" : "52758",
+        "count" : "32"
+      } ],
+      "smallest" : "44218",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 540785732,
+    "name" : "Project Name",
+    "dataTypeName" : "text",
+    "description" : "The Project Name is the name assigned to the project by HPD.",
+    "fieldName" : "project_name",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 41431860,
+    "width" : 342,
+    "cachedContents" : {
+      "non_null" : "9551",
+      "largest" : "ZEVRONE REALTY HDFC.HPO.FY18",
+      "null" : "0",
+      "top" : [ {
+        "item" : "CONFIDENTIAL",
+        "count" : "1949"
+      }, {
+        "item" : "EASTCHESTER HEIGHTS HDFC.HPO.FY25",
+        "count" : "114"
+      }, {
+        "item" : "Nehemiah Spring Creek Homes at Gateway Estates 4A",
+        "count" : "83"
+      }, {
+        "item" : "COOP CITY.HRP.FY20",
+        "count" : "79"
+      }, {
+        "item" : "JOE CENTRAL BROOKLYN LLC.YR15.FY19",
+        "count" : "79"
+      }, {
+        "item" : "MHANY 75",
+        "count" : "75"
+      }, {
+        "item" : "FLATBUSH GARDENS HDFC.HPO.FY23",
+        "count" : "59"
+      }, {
+        "item" : "PACC ABCCD RESYNDICATION",
+        "count" : "56"
+      }, {
+        "item" : "Stuy Town Peter Cooper Village",
+        "count" : "56"
+      }, {
+        "item" : "DALE GRENFELL HDFC.HPO.FY26",
+        "count" : "52"
+      }, {
+        "item" : "NORTH SHORE PLAZA.YR15.FY25",
+        "count" : "52"
+      }, {
+        "item" : "Marcus Garvey Apartments (20140295)",
+        "count" : "48"
+      }, {
+        "item" : "HP MORNINGSIDE HEIGHTS PORTFOLIO HDFC.YR15.FY21",
+        "count" : "48"
+      }, {
+        "item" : "STARRETT CITY",
+        "count" : "46"
+      }, {
+        "item" : "BEC CONTINUUM HDFC.YR15.FY2017",
+        "count" : "43"
+      }, {
+        "item" : "SUNSET PARK APARTMENTS HDFC.HUDMF.FY17",
+        "count" : "41"
+      }, {
+        "item" : "HOPE EAST OF FIFTH HDFC INC.YR15.FY17",
+        "count" : "40"
+      }, {
+        "item" : "STAGG 1 - AMANDA'S COVE.HPO.FY19",
+        "count" : "40"
+      }, {
+        "item" : "FULTON PARK",
+        "count" : "35"
+      }, {
+        "item" : "DIEGO BEEKMAN MHA.GHPP.FY18",
+        "count" : "33"
+      } ],
+      "smallest" : "1000 LORIMER STREET",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 540785734,
+    "name" : "Project Start Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "The Project Start Date is the date of the project loan closing and regulatory agreement — or the notice of intent to market affordable units.",
+    "fieldName" : "project_start_date",
+    "position" : 3,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 41431861,
+    "width" : 238,
+    "cachedContents" : {
+      "non_null" : "9551",
+      "largest" : "2026-06-30T00:00:00.000",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2021-06-30T00:00:00.000",
+        "count" : "141"
+      }, {
+        "item" : "2024-12-19T00:00:00.000",
+        "count" : "125"
+      }, {
+        "item" : "2026-06-30T00:00:00.000",
+        "count" : "110"
+      }, {
+        "item" : "2019-06-20T00:00:00.000",
+        "count" : "107"
+      }, {
+        "item" : "2019-06-27T00:00:00.000",
+        "count" : "93"
+      }, {
+        "item" : "2015-06-25T00:00:00.000",
+        "count" : "90"
+      }, {
+        "item" : "2016-06-27T00:00:00.000",
+        "count" : "87"
+      }, {
+        "item" : "2017-06-26T00:00:00.000",
+        "count" : "79"
+      }, {
+        "item" : "2020-03-30T00:00:00.000",
+        "count" : "79"
+      }, {
+        "item" : "2015-10-27T00:00:00.000",
+        "count" : "76"
+      }, {
+        "item" : "2023-06-29T00:00:00.000",
+        "count" : "69"
+      }, {
+        "item" : "2018-06-29T00:00:00.000",
+        "count" : "69"
+      }, {
+        "item" : "2017-06-30T00:00:00.000",
+        "count" : "66"
+      }, {
+        "item" : "2017-06-29T00:00:00.000",
+        "count" : "64"
+      }, {
+        "item" : "2025-03-31T00:00:00.000",
+        "count" : "61"
+      }, {
+        "item" : "2016-06-30T00:00:00.000",
+        "count" : "56"
+      }, {
+        "item" : "2015-12-18T00:00:00.000",
+        "count" : "56"
+      }, {
+        "item" : "2018-05-25T00:00:00.000",
+        "count" : "54"
+      }, {
+        "item" : "2017-11-01T00:00:00.000",
+        "count" : "52"
+      }, {
+        "item" : "2016-12-28T00:00:00.000",
+        "count" : "52"
+      } ],
+      "smallest" : "2014-01-03T00:00:00.000",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 540785735,
+    "name" : "Project Completion Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "The Project Completion Date is the date that the last building in the project was completed. If the project has not yet completed, then the field is blank.",
+    "fieldName" : "project_completion_date",
+    "position" : 4,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 41431862,
+    "width" : 235,
+    "cachedContents" : {
+      "non_null" : "7732",
+      "largest" : "2026-08-11T00:00:00.000",
+      "null" : "1819",
+      "top" : [ {
+        "item" : "2019-06-20T00:00:00.000",
+        "count" : "103"
+      }, {
+        "item" : "2024-06-25T00:00:00.000",
+        "count" : "87"
+      }, {
+        "item" : "2019-05-28T00:00:00.000",
+        "count" : "84"
+      }, {
+        "item" : "2024-05-09T00:00:00.000",
+        "count" : "82"
+      }, {
+        "item" : "2018-08-03T00:00:00.000",
+        "count" : "76"
+      }, {
+        "item" : "2026-06-30T00:00:00.000",
+        "count" : "73"
+      }, {
+        "item" : "2017-06-26T00:00:00.000",
+        "count" : "70"
+      }, {
+        "item" : "2017-06-23T00:00:00.000",
+        "count" : "58"
+      }, {
+        "item" : "2015-12-18T00:00:00.000",
+        "count" : "57"
+      }, {
+        "item" : "2018-05-25T00:00:00.000",
+        "count" : "54"
+      }, {
+        "item" : "2021-07-14T00:00:00.000",
+        "count" : "52"
+      }, {
+        "item" : "2020-12-30T00:00:00.000",
+        "count" : "48"
+      }, {
+        "item" : "2025-04-23T00:00:00.000",
+        "count" : "44"
+      }, {
+        "item" : "2020-09-16T00:00:00.000",
+        "count" : "43"
+      }, {
+        "item" : "2017-10-31T00:00:00.000",
+        "count" : "43"
+      }, {
+        "item" : "2021-06-30T00:00:00.000",
+        "count" : "43"
+      }, {
+        "item" : "2017-06-13T00:00:00.000",
+        "count" : "42"
+      }, {
+        "item" : "2018-12-31T00:00:00.000",
+        "count" : "42"
+      }, {
+        "item" : "2016-06-24T00:00:00.000",
+        "count" : "36"
+      }, {
+        "item" : "2018-07-02T00:00:00.000",
+        "count" : "36"
+      } ],
+      "smallest" : "2014-01-03T00:00:00.000",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 540785736,
+    "name" : "Building ID",
+    "dataTypeName" : "number",
+    "description" : "The Building ID is a unique numeric identifier assigned to each building by HPD.",
+    "fieldName" : "building_id",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431863,
+    "width" : 232,
+    "cachedContents" : {
+      "non_null" : "7602",
+      "largest" : "1022537",
+      "null" : "1949",
+      "top" : [ {
+        "item" : "967819",
+        "count" : "3"
+      }, {
+        "item" : "295952",
+        "count" : "2"
+      }, {
+        "item" : "213417",
+        "count" : "2"
+      }, {
+        "item" : "1338",
+        "count" : "2"
+      }, {
+        "item" : "809836",
+        "count" : "2"
+      }, {
+        "item" : "355186",
+        "count" : "2"
+      }, {
+        "item" : "807660",
+        "count" : "2"
+      }, {
+        "item" : "1339",
+        "count" : "2"
+      }, {
+        "item" : "809494",
+        "count" : "2"
+      }, {
+        "item" : "927022",
+        "count" : "2"
+      }, {
+        "item" : "331146",
+        "count" : "2"
+      }, {
+        "item" : "804201",
+        "count" : "2"
+      }, {
+        "item" : "954108",
+        "count" : "2"
+      }, {
+        "item" : "288856",
+        "count" : "2"
+      }, {
+        "item" : "812434",
+        "count" : "2"
+      }, {
+        "item" : "2098",
+        "count" : "2"
+      }, {
+        "item" : "119640",
+        "count" : "2"
+      }, {
+        "item" : "809495",
+        "count" : "2"
+      }, {
+        "item" : "330823",
+        "count" : "2"
+      }, {
+        "item" : "807684",
+        "count" : "2"
+      } ],
+      "smallest" : "375",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785737,
+    "name" : "Number",
+    "dataTypeName" : "text",
+    "description" : "The House Number is the street number in the building’s address. E.g., the house number is ‘100’ in ‘100 Gold Street.’",
+    "fieldName" : "house_number",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 41431864,
+    "width" : 244,
+    "cachedContents" : {
+      "non_null" : "9551",
+      "largest" : "Oct-44",
+      "null" : "0",
+      "top" : [ {
+        "item" : "----",
+        "count" : "1949"
+      }, {
+        "item" : "120",
+        "count" : "28"
+      }, {
+        "item" : "100",
+        "count" : "27"
+      }, {
+        "item" : "140",
+        "count" : "26"
+      }, {
+        "item" : "111",
+        "count" : "19"
+      }, {
+        "item" : "101",
+        "count" : "18"
+      }, {
+        "item" : "115",
+        "count" : "17"
+      }, {
+        "item" : "30",
+        "count" : "17"
+      }, {
+        "item" : "1",
+        "count" : "16"
+      }, {
+        "item" : "50",
+        "count" : "16"
+      }, {
+        "item" : "20",
+        "count" : "16"
+      }, {
+        "item" : "15",
+        "count" : "16"
+      }, {
+        "item" : "305",
+        "count" : "15"
+      }, {
+        "item" : "211",
+        "count" : "15"
+      }, {
+        "item" : "12",
+        "count" : "14"
+      }, {
+        "item" : "60",
+        "count" : "14"
+      }, {
+        "item" : "210",
+        "count" : "14"
+      }, {
+        "item" : "205",
+        "count" : "14"
+      }, {
+        "item" : "165",
+        "count" : "14"
+      }, {
+        "item" : "22",
+        "count" : "14"
+      } ],
+      "smallest" : "----",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 540785738,
+    "name" : "Street",
+    "dataTypeName" : "text",
+    "description" : "The Street Name is the name of the street in the building’s address. E.g., the street name is ‘Gold Street’ in ‘100 Gold Street.’",
+    "fieldName" : "street_name",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 41431865,
+    "width" : 232,
+    "cachedContents" : {
+      "non_null" : "9551",
+      "largest" : "YORK AVENUE",
+      "null" : "0",
+      "top" : [ {
+        "item" : "----",
+        "count" : "1949"
+      }, {
+        "item" : "NEW YORK AVENUE",
+        "count" : "80"
+      }, {
+        "item" : "SCHROEDERS AVENUE",
+        "count" : "74"
+      }, {
+        "item" : "FULTON STREET",
+        "count" : "68"
+      }, {
+        "item" : "HOLLAND AVENUE",
+        "count" : "59"
+      }, {
+        "item" : "AMSTERDAM AVENUE",
+        "count" : "58"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "49"
+      }, {
+        "item" : "BROADWAY",
+        "count" : "47"
+      }, {
+        "item" : "VANDALIA AVENUE",
+        "count" : "43"
+      }, {
+        "item" : "ADAM C POWELL BOULEVARD",
+        "count" : "43"
+      }, {
+        "item" : "BEDFORD AVENUE",
+        "count" : "43"
+      }, {
+        "item" : "MORRIS AVENUE",
+        "count" : "36"
+      }, {
+        "item" : "WEST 135 STREET",
+        "count" : "35"
+      }, {
+        "item" : "ATLANTIC AVENUE",
+        "count" : "35"
+      }, {
+        "item" : "FREDERICK DOUGLASS BOULEVARD",
+        "count" : "34"
+      }, {
+        "item" : "FRANKLIN AVENUE",
+        "count" : "33"
+      }, {
+        "item" : "WALTON AVENUE",
+        "count" : "33"
+      }, {
+        "item" : "UNIVERSITY AVENUE",
+        "count" : "33"
+      }, {
+        "item" : "BRISTOL STREET",
+        "count" : "31"
+      }, {
+        "item" : "PARK AVENUE",
+        "count" : "31"
+      } ],
+      "smallest" : "----",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 540785739,
+    "name" : "Borough",
+    "dataTypeName" : "text",
+    "description" : "The Borough is the borough where the building is located.",
+    "fieldName" : "borough",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 41431866,
+    "width" : 184,
+    "cachedContents" : {
+      "non_null" : "9551",
+      "largest" : "Staten Island",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Brooklyn",
+        "count" : "3649"
+      }, {
+        "item" : "Bronx",
+        "count" : "2630"
+      }, {
+        "item" : "Manhattan",
+        "count" : "1485"
+      }, {
+        "item" : "Queens",
+        "count" : "1342"
+      }, {
+        "item" : "Staten Island",
+        "count" : "445"
+      } ],
+      "smallest" : "Bronx",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 540785740,
+    "name" : "Postcode",
+    "dataTypeName" : "number",
+    "description" : "Zip code",
+    "fieldName" : "postcode",
+    "position" : 9,
+    "renderTypeName" : "number",
+    "tableColumnId" : 52878294,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "7593",
+      "largest" : "11694",
+      "null" : "1958",
+      "top" : [ {
+        "item" : "11221",
+        "count" : "269"
+      }, {
+        "item" : "11233",
+        "count" : "232"
+      }, {
+        "item" : "11207",
+        "count" : "229"
+      }, {
+        "item" : "11239",
+        "count" : "212"
+      }, {
+        "item" : "11212",
+        "count" : "212"
+      }, {
+        "item" : "10456",
+        "count" : "202"
+      }, {
+        "item" : "10457",
+        "count" : "182"
+      }, {
+        "item" : "11216",
+        "count" : "178"
+      }, {
+        "item" : "11206",
+        "count" : "177"
+      }, {
+        "item" : "10453",
+        "count" : "176"
+      }, {
+        "item" : "10459",
+        "count" : "172"
+      }, {
+        "item" : "10469",
+        "count" : "168"
+      }, {
+        "item" : "10452",
+        "count" : "154"
+      }, {
+        "item" : "10460",
+        "count" : "154"
+      }, {
+        "item" : "10467",
+        "count" : "148"
+      }, {
+        "item" : "11226",
+        "count" : "143"
+      }, {
+        "item" : "11210",
+        "count" : "140"
+      }, {
+        "item" : "10030",
+        "count" : "139"
+      }, {
+        "item" : "11238",
+        "count" : "136"
+      }, {
+        "item" : "10458",
+        "count" : "135"
+      } ],
+      "smallest" : "10001",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785741,
+    "name" : "BBL",
+    "dataTypeName" : "number",
+    "description" : "The BBL (Borough, Block, and Lot) is a unique identifier for each tax lot in the City.",
+    "fieldName" : "bbl",
+    "position" : 10,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431867,
+    "width" : 136,
+    "cachedContents" : {
+      "non_null" : "7530",
+      "largest" : "5080477501",
+      "null" : "2021",
+      "top" : [ {
+        "item" : "2051410120",
+        "count" : "58"
+      }, {
+        "item" : "5012720011",
+        "count" : "53"
+      }, {
+        "item" : "4092470001",
+        "count" : "52"
+      }, {
+        "item" : "1009720001",
+        "count" : "35"
+      }, {
+        "item" : "2047120001",
+        "count" : "30"
+      }, {
+        "item" : "2047130001",
+        "count" : "26"
+      }, {
+        "item" : "2047210017",
+        "count" : "24"
+      }, {
+        "item" : "4159260001",
+        "count" : "22"
+      }, {
+        "item" : "1009780001",
+        "count" : "21"
+      }, {
+        "item" : "2051350051",
+        "count" : "21"
+      }, {
+        "item" : "4124950002",
+        "count" : "20"
+      }, {
+        "item" : "2047220012",
+        "count" : "19"
+      }, {
+        "item" : "3017080001",
+        "count" : "18"
+      }, {
+        "item" : "3017020001",
+        "count" : "17"
+      }, {
+        "item" : "4124580421",
+        "count" : "15"
+      }, {
+        "item" : "2047200001",
+        "count" : "15"
+      }, {
+        "item" : "3042710001",
+        "count" : "15"
+      }, {
+        "item" : "3035730001",
+        "count" : "14"
+      }, {
+        "item" : "3035870001",
+        "count" : "13"
+      }, {
+        "item" : "3042130001",
+        "count" : "13"
+      } ],
+      "smallest" : "1000050010",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785742,
+    "name" : "BIN",
+    "dataTypeName" : "number",
+    "description" : "The BIN (Building Identification Number) is a unique identifier for each building in the City.",
+    "fieldName" : "bin",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431868,
+    "width" : 136,
+    "cachedContents" : {
+      "non_null" : "7530",
+      "largest" : "5174441",
+      "null" : "2021",
+      "top" : [ {
+        "item" : "3000000",
+        "count" : "177"
+      }, {
+        "item" : "2000000",
+        "count" : "153"
+      }, {
+        "item" : "4000000",
+        "count" : "90"
+      }, {
+        "item" : "1000000",
+        "count" : "43"
+      }, {
+        "item" : "5000000",
+        "count" : "19"
+      }, {
+        "item" : "3426147",
+        "count" : "4"
+      }, {
+        "item" : "1051514",
+        "count" : "4"
+      }, {
+        "item" : "3346323",
+        "count" : "3"
+      }, {
+        "item" : "3343253",
+        "count" : "3"
+      }, {
+        "item" : "2024208",
+        "count" : "3"
+      }, {
+        "item" : "1083034",
+        "count" : "3"
+      }, {
+        "item" : "1086089",
+        "count" : "3"
+      }, {
+        "item" : "1082666",
+        "count" : "2"
+      }, {
+        "item" : "3045992",
+        "count" : "2"
+      }, {
+        "item" : "1090211",
+        "count" : "2"
+      }, {
+        "item" : "2013061",
+        "count" : "2"
+      }, {
+        "item" : "1054628",
+        "count" : "2"
+      }, {
+        "item" : "3045533",
+        "count" : "2"
+      }, {
+        "item" : "2130367",
+        "count" : "2"
+      }, {
+        "item" : "1018083",
+        "count" : "2"
+      } ],
+      "smallest" : "1000000",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785743,
+    "name" : "Community Board",
+    "dataTypeName" : "text",
+    "description" : "The Community Board field indicates the New York City Community District where the building is located.",
+    "fieldName" : "community_board",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 60408652,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "9551",
+      "largest" : "SI-03",
+      "null" : "0",
+      "top" : [ {
+        "item" : "BK-05",
+        "count" : "576"
+      }, {
+        "item" : "BK-03",
+        "count" : "552"
+      }, {
+        "item" : "BX-12",
+        "count" : "430"
+      }, {
+        "item" : "MN-10",
+        "count" : "430"
+      }, {
+        "item" : "BK-16",
+        "count" : "365"
+      }, {
+        "item" : "BK-17",
+        "count" : "354"
+      }, {
+        "item" : "BK-01",
+        "count" : "314"
+      }, {
+        "item" : "BK-04",
+        "count" : "298"
+      }, {
+        "item" : "BX-04",
+        "count" : "291"
+      }, {
+        "item" : "QN-12",
+        "count" : "286"
+      }, {
+        "item" : "SI-01",
+        "count" : "278"
+      }, {
+        "item" : "BX-05",
+        "count" : "278"
+      }, {
+        "item" : "BX-03",
+        "count" : "275"
+      }, {
+        "item" : "BX-06",
+        "count" : "250"
+      }, {
+        "item" : "MN-11",
+        "count" : "235"
+      }, {
+        "item" : "BK-08",
+        "count" : "218"
+      }, {
+        "item" : "BX-07",
+        "count" : "215"
+      }, {
+        "item" : "BX-09",
+        "count" : "207"
+      }, {
+        "item" : "BX-01",
+        "count" : "205"
+      }, {
+        "item" : "BK-02",
+        "count" : "165"
+      } ],
+      "smallest" : "BK-01",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : { }
+  }, {
+    "id" : 540785744,
+    "name" : "Council District",
+    "dataTypeName" : "number",
+    "description" : "The Council District indicates the New York City Council District where the building is located.",
+    "fieldName" : "council_district",
+    "position" : 13,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431870,
+    "width" : 292,
+    "cachedContents" : {
+      "non_null" : "9551",
+      "largest" : "51",
+      "null" : "0",
+      "top" : [ {
+        "item" : "42",
+        "count" : "543"
+      }, {
+        "item" : "9",
+        "count" : "541"
+      }, {
+        "item" : "36",
+        "count" : "517"
+      }, {
+        "item" : "12",
+        "count" : "485"
+      }, {
+        "item" : "41",
+        "count" : "437"
+      }, {
+        "item" : "17",
+        "count" : "428"
+      }, {
+        "item" : "15",
+        "count" : "418"
+      }, {
+        "item" : "34",
+        "count" : "338"
+      }, {
+        "item" : "14",
+        "count" : "337"
+      }, {
+        "item" : "37",
+        "count" : "332"
+      }, {
+        "item" : "16",
+        "count" : "331"
+      }, {
+        "item" : "8",
+        "count" : "316"
+      }, {
+        "item" : "49",
+        "count" : "269"
+      }, {
+        "item" : "45",
+        "count" : "266"
+      }, {
+        "item" : "35",
+        "count" : "254"
+      }, {
+        "item" : "40",
+        "count" : "224"
+      }, {
+        "item" : "27",
+        "count" : "222"
+      }, {
+        "item" : "7",
+        "count" : "217"
+      }, {
+        "item" : "18",
+        "count" : "187"
+      }, {
+        "item" : "11",
+        "count" : "181"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785745,
+    "name" : "Census Tract",
+    "dataTypeName" : "text",
+    "description" : "The Census Tract indicates the 2010 U.S. Census Tract where the building is located.",
+    "fieldName" : "census_tract",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 41437072,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "7593",
+      "largest" : "99802",
+      "null" : "1958",
+      "top" : [ {
+        "item" : "107001",
+        "count" : "165"
+      }, {
+        "item" : "386",
+        "count" : "129"
+      }, {
+        "item" : "363",
+        "count" : "68"
+      }, {
+        "item" : "193",
+        "count" : "60"
+      }, {
+        "item" : "916",
+        "count" : "59"
+      }, {
+        "item" : "299",
+        "count" : "55"
+      }, {
+        "item" : "230",
+        "count" : "55"
+      }, {
+        "item" : "138",
+        "count" : "55"
+      }, {
+        "item" : "31902",
+        "count" : "53"
+      }, {
+        "item" : "227",
+        "count" : "45"
+      }, {
+        "item" : "228",
+        "count" : "45"
+      }, {
+        "item" : "189",
+        "count" : "45"
+      }, {
+        "item" : "33",
+        "count" : "43"
+      }, {
+        "item" : "373",
+        "count" : "41"
+      }, {
+        "item" : "208",
+        "count" : "41"
+      }, {
+        "item" : "261",
+        "count" : "40"
+      }, {
+        "item" : "226",
+        "count" : "40"
+      }, {
+        "item" : "784",
+        "count" : "39"
+      }, {
+        "item" : "830",
+        "count" : "39"
+      }, {
+        "item" : "87",
+        "count" : "38"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : { }
+  }, {
+    "id" : 540785746,
+    "name" : "NTA - Neighborhood Tabulation Area",
+    "dataTypeName" : "text",
+    "description" : "The Neighborhood Tabulation Area indicates the New York City Neighborhood Tabulation Area where the building is located.",
+    "fieldName" : "neighborhood_tabulation_area",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 41437095,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "7593",
+      "largest" : "SI45",
+      "null" : "1958",
+      "top" : [ {
+        "item" : "BK82",
+        "count" : "358"
+      }, {
+        "item" : "MN03",
+        "count" : "303"
+      }, {
+        "item" : "BK61",
+        "count" : "285"
+      }, {
+        "item" : "BK78",
+        "count" : "254"
+      }, {
+        "item" : "BK75",
+        "count" : "201"
+      }, {
+        "item" : "BK81",
+        "count" : "195"
+      }, {
+        "item" : "BX17",
+        "count" : "170"
+      }, {
+        "item" : "BK35",
+        "count" : "153"
+      }, {
+        "item" : "BX35",
+        "count" : "147"
+      }, {
+        "item" : "BK79",
+        "count" : "138"
+      }, {
+        "item" : "BX03",
+        "count" : "136"
+      }, {
+        "item" : "MN34",
+        "count" : "136"
+      }, {
+        "item" : "BK73",
+        "count" : "123"
+      }, {
+        "item" : "BX44",
+        "count" : "121"
+      }, {
+        "item" : "BK91",
+        "count" : "121"
+      }, {
+        "item" : "BX39",
+        "count" : "120"
+      }, {
+        "item" : "MN11",
+        "count" : "119"
+      }, {
+        "item" : "BX41",
+        "count" : "118"
+      }, {
+        "item" : "BX14",
+        "count" : "118"
+      }, {
+        "item" : "BX36",
+        "count" : "118"
+      } ],
+      "smallest" : "BK09",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 540785747,
+    "name" : "Latitude",
+    "dataTypeName" : "number",
+    "description" : "The Latitude and Longitude specify the location of the property on the earth’s surface. The coordinates provided are an estimate of the location based on the street segment and address range.",
+    "fieldName" : "latitude",
+    "position" : 16,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431871,
+    "width" : 196,
+    "cachedContents" : {
+      "non_null" : "7593",
+      "largest" : "40.90663",
+      "null" : "1958",
+      "top" : [ {
+        "item" : "40.750871",
+        "count" : "5"
+      }, {
+        "item" : "40.750852",
+        "count" : "4"
+      }, {
+        "item" : "40.686032",
+        "count" : "4"
+      }, {
+        "item" : "40.750855",
+        "count" : "4"
+      }, {
+        "item" : "40.717891",
+        "count" : "3"
+      }, {
+        "item" : "40.638361",
+        "count" : "3"
+      }, {
+        "item" : "40.591069",
+        "count" : "3"
+      }, {
+        "item" : "40.831084",
+        "count" : "3"
+      }, {
+        "item" : "40.684908",
+        "count" : "3"
+      }, {
+        "item" : "40.828165",
+        "count" : "3"
+      }, {
+        "item" : "40.766521",
+        "count" : "3"
+      }, {
+        "item" : "40.867065",
+        "count" : "3"
+      }, {
+        "item" : "40.750874",
+        "count" : "3"
+      }, {
+        "item" : "40.639476",
+        "count" : "3"
+      }, {
+        "item" : "40.638941",
+        "count" : "3"
+      }, {
+        "item" : "40.638803",
+        "count" : "3"
+      }, {
+        "item" : "40.639635",
+        "count" : "3"
+      }, {
+        "item" : "40.800872",
+        "count" : "3"
+      }, {
+        "item" : "40.656717",
+        "count" : "3"
+      }, {
+        "item" : "40.870821",
+        "count" : "3"
+      } ],
+      "smallest" : "40.50991",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785748,
+    "name" : "Longitude",
+    "dataTypeName" : "number",
+    "description" : "The Latitude and Longitude specify the location of the property on the earth’s surface. The coordinates provided are an estimate of the location based on the street segment and address range.",
+    "fieldName" : "longitude",
+    "position" : 17,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431872,
+    "width" : 208,
+    "cachedContents" : {
+      "non_null" : "7593",
+      "largest" : "-73.730624",
+      "null" : "1958",
+      "top" : [ {
+        "item" : "-74.171256",
+        "count" : "7"
+      }, {
+        "item" : "-74.171244",
+        "count" : "6"
+      }, {
+        "item" : "-74.171236",
+        "count" : "5"
+      }, {
+        "item" : "-74.17124",
+        "count" : "5"
+      }, {
+        "item" : "-74.171232",
+        "count" : "5"
+      }, {
+        "item" : "-73.85827",
+        "count" : "4"
+      }, {
+        "item" : "-73.858274",
+        "count" : "4"
+      }, {
+        "item" : "-74.171223",
+        "count" : "3"
+      }, {
+        "item" : "-73.913668",
+        "count" : "3"
+      }, {
+        "item" : "-73.86441",
+        "count" : "3"
+      }, {
+        "item" : "-74.171252",
+        "count" : "3"
+      }, {
+        "item" : "-73.868258",
+        "count" : "3"
+      }, {
+        "item" : "-73.857542",
+        "count" : "3"
+      }, {
+        "item" : "-73.858277",
+        "count" : "3"
+      }, {
+        "item" : "-73.954664",
+        "count" : "3"
+      }, {
+        "item" : "-73.938452",
+        "count" : "3"
+      }, {
+        "item" : "-73.979824",
+        "count" : "3"
+      }, {
+        "item" : "-73.929736",
+        "count" : "3"
+      }, {
+        "item" : "-74.171228",
+        "count" : "3"
+      }, {
+        "item" : "-73.949199",
+        "count" : "3"
+      } ],
+      "smallest" : "-74.247685",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785749,
+    "name" : "Latitude (Internal)",
+    "dataTypeName" : "number",
+    "description" : "The Latitude (Internal) and Longitude (Internal) specify the location of the property on the earth’s surface. The coordinates provided are of the internal centroid derived from the tax lot.",
+    "fieldName" : "latitude_internal",
+    "position" : 18,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431873,
+    "width" : 328,
+    "cachedContents" : {
+      "non_null" : "7507",
+      "largest" : "40.906877",
+      "null" : "2044",
+      "top" : [ {
+        "item" : "40.875013",
+        "count" : "58"
+      }, {
+        "item" : "40.639104",
+        "count" : "53"
+      }, {
+        "item" : "40.707269",
+        "count" : "53"
+      }, {
+        "item" : "40.731724",
+        "count" : "35"
+      }, {
+        "item" : "40.876848",
+        "count" : "30"
+      }, {
+        "item" : "40.877198",
+        "count" : "26"
+      }, {
+        "item" : "40.877679",
+        "count" : "24"
+      }, {
+        "item" : "40.590717",
+        "count" : "22"
+      }, {
+        "item" : "40.863915",
+        "count" : "21"
+      }, {
+        "item" : "40.734875",
+        "count" : "21"
+      }, {
+        "item" : "40.676135",
+        "count" : "20"
+      }, {
+        "item" : "40.877941",
+        "count" : "19"
+      }, {
+        "item" : "40.677967",
+        "count" : "18"
+      }, {
+        "item" : "40.678878",
+        "count" : "17"
+      }, {
+        "item" : "40.672602",
+        "count" : "16"
+      }, {
+        "item" : "40.68584",
+        "count" : "15"
+      }, {
+        "item" : "40.877911",
+        "count" : "15"
+      }, {
+        "item" : "40.663084",
+        "count" : "14"
+      }, {
+        "item" : "40.675744",
+        "count" : "13"
+      }, {
+        "item" : "40.661291",
+        "count" : "13"
+      } ],
+      "smallest" : "40.510046",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785750,
+    "name" : "Longitude (Internal)",
+    "dataTypeName" : "number",
+    "description" : "The Latitude (Internal) and Longitude (Internal) specify the location of the property on the earth’s surface. The coordinates provided are of the internal centroid derived from the tax lot.",
+    "fieldName" : "longitude_internal",
+    "position" : 19,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431874,
+    "width" : 340,
+    "cachedContents" : {
+      "non_null" : "7507",
+      "largest" : "-73.729709",
+      "null" : "2044",
+      "top" : [ {
+        "item" : "-73.828362",
+        "count" : "58"
+      }, {
+        "item" : "-74.170235",
+        "count" : "53"
+      }, {
+        "item" : "-73.826503",
+        "count" : "52"
+      }, {
+        "item" : "-73.977896",
+        "count" : "35"
+      }, {
+        "item" : "-73.851015",
+        "count" : "30"
+      }, {
+        "item" : "-73.850074",
+        "count" : "26"
+      }, {
+        "item" : "-73.848323",
+        "count" : "24"
+      }, {
+        "item" : "-73.787495",
+        "count" : "22"
+      }, {
+        "item" : "-73.976982",
+        "count" : "21"
+      }, {
+        "item" : "-73.821948",
+        "count" : "21"
+      }, {
+        "item" : "-73.773084",
+        "count" : "20"
+      }, {
+        "item" : "-73.847437",
+        "count" : "19"
+      }, {
+        "item" : "-73.929283",
+        "count" : "18"
+      }, {
+        "item" : "-73.928799",
+        "count" : "17"
+      }, {
+        "item" : "-73.865704",
+        "count" : "15"
+      }, {
+        "item" : "-73.849462",
+        "count" : "15"
+      }, {
+        "item" : "-73.761844",
+        "count" : "15"
+      }, {
+        "item" : "-73.911273",
+        "count" : "14"
+      }, {
+        "item" : "-73.910871",
+        "count" : "13"
+      }, {
+        "item" : "-73.8724",
+        "count" : "13"
+      } ],
+      "smallest" : "-74.247006",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785751,
+    "name" : "Building Completion Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "The Building Completion Date is the date the building was completed. The field is blank if the building has not completed.",
+    "fieldName" : "building_completion_date",
+    "position" : 20,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 41431875,
+    "width" : 388,
+    "cachedContents" : {
+      "non_null" : "7885",
+      "largest" : "2026-08-21T00:00:00.000",
+      "null" : "1666",
+      "top" : [ {
+        "item" : "2019-06-20T00:00:00.000",
+        "count" : "103"
+      }, {
+        "item" : "2017-12-31T00:00:00.000",
+        "count" : "73"
+      }, {
+        "item" : "2026-06-30T00:00:00.000",
+        "count" : "73"
+      }, {
+        "item" : "2017-06-26T00:00:00.000",
+        "count" : "70"
+      }, {
+        "item" : "2016-12-21T00:00:00.000",
+        "count" : "58"
+      }, {
+        "item" : "2015-12-18T00:00:00.000",
+        "count" : "57"
+      }, {
+        "item" : "2018-05-25T00:00:00.000",
+        "count" : "54"
+      }, {
+        "item" : "2021-07-14T00:00:00.000",
+        "count" : "50"
+      }, {
+        "item" : "2025-04-23T00:00:00.000",
+        "count" : "44"
+      }, {
+        "item" : "2017-10-31T00:00:00.000",
+        "count" : "43"
+      }, {
+        "item" : "2017-06-13T00:00:00.000",
+        "count" : "42"
+      }, {
+        "item" : "2021-06-30T00:00:00.000",
+        "count" : "42"
+      }, {
+        "item" : "2023-06-26T00:00:00.000",
+        "count" : "42"
+      }, {
+        "item" : "2022-01-10T00:00:00.000",
+        "count" : "37"
+      }, {
+        "item" : "2016-06-24T00:00:00.000",
+        "count" : "36"
+      }, {
+        "item" : "2018-07-02T00:00:00.000",
+        "count" : "36"
+      }, {
+        "item" : "2019-06-26T00:00:00.000",
+        "count" : "33"
+      }, {
+        "item" : "2017-06-29T00:00:00.000",
+        "count" : "32"
+      }, {
+        "item" : "2023-07-27T00:00:00.000",
+        "count" : "30"
+      }, {
+        "item" : "2022-04-08T00:00:00.000",
+        "count" : "29"
+      } ],
+      "smallest" : "2014-01-03T00:00:00.000",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 540785752,
+    "name" : "Reporting Construction Type",
+    "dataTypeName" : "text",
+    "description" : "The Reporting Construction Type field indicates whether the building is categorized as ‘new construction’ or ‘preservation’ in Housing New York statistics. Note that some preservation projects included here may not actually involve construction, because they extend the project’s regulatory restrictions but do not require rehabilitation.",
+    "fieldName" : "reporting_construction_type",
+    "position" : 21,
+    "renderTypeName" : "text",
+    "tableColumnId" : 41431876,
+    "width" : 424,
+    "cachedContents" : {
+      "non_null" : "9551",
+      "largest" : "Preservation",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Preservation",
+        "count" : "4785"
+      }, {
+        "item" : "New Construction",
+        "count" : "4766"
+      } ],
+      "smallest" : "New Construction",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 540785753,
+    "name" : "Extended Affordability Only",
+    "dataTypeName" : "text",
+    "description" : "The Extended Affordability Only field indicates whether the project is considered to be Extended Affordability. An extended affordability project involves no construction, but secures an extended or new regulatory agreement. All extended affordability projects have a ‘reporting construction type’ of ‘preservation.’",
+    "fieldName" : "extended_affordability_status",
+    "position" : 22,
+    "renderTypeName" : "text",
+    "tableColumnId" : 41431877,
+    "width" : 448,
+    "cachedContents" : {
+      "non_null" : "9551",
+      "largest" : "Yes",
+      "null" : "0",
+      "top" : [ {
+        "item" : "No",
+        "count" : "8125"
+      }, {
+        "item" : "Yes",
+        "count" : "1426"
+      } ],
+      "smallest" : "No",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 540785754,
+    "name" : "Prevailing Wage Status",
+    "dataTypeName" : "text",
+    "description" : "The Prevailing Wage Status field indicates whether the project is subject to prevailing wage requirements, such as Davis Bacon.",
+    "fieldName" : "prevailing_wage_status",
+    "position" : 23,
+    "renderTypeName" : "text",
+    "tableColumnId" : 41431878,
+    "width" : 364,
+    "cachedContents" : {
+      "non_null" : "9551",
+      "largest" : "Prevailing Wage",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Non Prevailing Wage",
+        "count" : "9392"
+      }, {
+        "item" : "Prevailing Wage",
+        "count" : "159"
+      } ],
+      "smallest" : "Non Prevailing Wage",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 540785755,
+    "name" : "Extremely Low Income Units",
+    "dataTypeName" : "number",
+    "description" : "Extremely Low Income Units are units with rents that are affordable to households earning 0 to 30% of the area median income (AMI).",
+    "fieldName" : "extremely_low_income_units",
+    "position" : 24,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431879,
+    "width" : 412,
+    "cachedContents" : {
+      "non_null" : "2081",
+      "largest" : "429",
+      "null" : "7470",
+      "top" : [ {
+        "item" : "1",
+        "count" : "378"
+      }, {
+        "item" : "2",
+        "count" : "211"
+      }, {
+        "item" : "3",
+        "count" : "115"
+      }, {
+        "item" : "4",
+        "count" : "97"
+      }, {
+        "item" : "6",
+        "count" : "79"
+      }, {
+        "item" : "5",
+        "count" : "77"
+      }, {
+        "item" : "7",
+        "count" : "76"
+      }, {
+        "item" : "8",
+        "count" : "58"
+      }, {
+        "item" : "10",
+        "count" : "37"
+      }, {
+        "item" : "9",
+        "count" : "34"
+      }, {
+        "item" : "15",
+        "count" : "31"
+      }, {
+        "item" : "12",
+        "count" : "30"
+      }, {
+        "item" : "16",
+        "count" : "30"
+      }, {
+        "item" : "13",
+        "count" : "27"
+      }, {
+        "item" : "14",
+        "count" : "24"
+      }, {
+        "item" : "11",
+        "count" : "23"
+      }, {
+        "item" : "20",
+        "count" : "19"
+      }, {
+        "item" : "18",
+        "count" : "19"
+      }, {
+        "item" : "17",
+        "count" : "18"
+      }, {
+        "item" : "50",
+        "count" : "17"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785756,
+    "name" : "Very Low Income Units",
+    "dataTypeName" : "number",
+    "description" : "Very Low Income Units are units with rents that are affordable to households earning 31 to 50% of the area median income (AMI).",
+    "fieldName" : "very_low_income_units",
+    "position" : 25,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431880,
+    "width" : 280,
+    "cachedContents" : {
+      "non_null" : "3400",
+      "largest" : "453",
+      "null" : "6151",
+      "top" : [ {
+        "item" : "1",
+        "count" : "441"
+      }, {
+        "item" : "2",
+        "count" : "347"
+      }, {
+        "item" : "3",
+        "count" : "251"
+      }, {
+        "item" : "4",
+        "count" : "210"
+      }, {
+        "item" : "6",
+        "count" : "193"
+      }, {
+        "item" : "5",
+        "count" : "142"
+      }, {
+        "item" : "7",
+        "count" : "132"
+      }, {
+        "item" : "8",
+        "count" : "110"
+      }, {
+        "item" : "9",
+        "count" : "94"
+      }, {
+        "item" : "12",
+        "count" : "89"
+      }, {
+        "item" : "11",
+        "count" : "86"
+      }, {
+        "item" : "10",
+        "count" : "83"
+      }, {
+        "item" : "16",
+        "count" : "57"
+      }, {
+        "item" : "14",
+        "count" : "56"
+      }, {
+        "item" : "15",
+        "count" : "50"
+      }, {
+        "item" : "13",
+        "count" : "50"
+      }, {
+        "item" : "17",
+        "count" : "38"
+      }, {
+        "item" : "18",
+        "count" : "37"
+      }, {
+        "item" : "20",
+        "count" : "35"
+      }, {
+        "item" : "19",
+        "count" : "33"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785757,
+    "name" : "Low Income Units",
+    "dataTypeName" : "number",
+    "description" : "Low Income Units are units with rents that are affordable to households earning 51 to 80% of the area median income (AMI).",
+    "fieldName" : "low_income_units",
+    "position" : 26,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431881,
+    "width" : 292,
+    "cachedContents" : {
+      "non_null" : "5505",
+      "largest" : "536",
+      "null" : "4046",
+      "top" : [ {
+        "item" : "1",
+        "count" : "1570"
+      }, {
+        "item" : "2",
+        "count" : "477"
+      }, {
+        "item" : "3",
+        "count" : "337"
+      }, {
+        "item" : "4",
+        "count" : "258"
+      }, {
+        "item" : "8",
+        "count" : "208"
+      }, {
+        "item" : "6",
+        "count" : "169"
+      }, {
+        "item" : "5",
+        "count" : "164"
+      }, {
+        "item" : "7",
+        "count" : "154"
+      }, {
+        "item" : "9",
+        "count" : "119"
+      }, {
+        "item" : "10",
+        "count" : "115"
+      }, {
+        "item" : "12",
+        "count" : "101"
+      }, {
+        "item" : "11",
+        "count" : "90"
+      }, {
+        "item" : "16",
+        "count" : "63"
+      }, {
+        "item" : "24",
+        "count" : "63"
+      }, {
+        "item" : "13",
+        "count" : "62"
+      }, {
+        "item" : "14",
+        "count" : "61"
+      }, {
+        "item" : "20",
+        "count" : "58"
+      }, {
+        "item" : "15",
+        "count" : "55"
+      }, {
+        "item" : "18",
+        "count" : "54"
+      }, {
+        "item" : "17",
+        "count" : "49"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785758,
+    "name" : "Moderate Income Units",
+    "dataTypeName" : "number",
+    "description" : "Moderate Income Units are units with rents that are affordable to households earning 81 to 120% of the area median income (AMI).",
+    "fieldName" : "moderate_income_units",
+    "position" : 27,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431882,
+    "width" : 280,
+    "cachedContents" : {
+      "non_null" : "1694",
+      "largest" : "454",
+      "null" : "7857",
+      "top" : [ {
+        "item" : "1",
+        "count" : "541"
+      }, {
+        "item" : "2",
+        "count" : "242"
+      }, {
+        "item" : "3",
+        "count" : "180"
+      }, {
+        "item" : "4",
+        "count" : "102"
+      }, {
+        "item" : "6",
+        "count" : "68"
+      }, {
+        "item" : "5",
+        "count" : "52"
+      }, {
+        "item" : "8",
+        "count" : "52"
+      }, {
+        "item" : "7",
+        "count" : "44"
+      }, {
+        "item" : "10",
+        "count" : "34"
+      }, {
+        "item" : "9",
+        "count" : "30"
+      }, {
+        "item" : "12",
+        "count" : "24"
+      }, {
+        "item" : "11",
+        "count" : "15"
+      }, {
+        "item" : "15",
+        "count" : "15"
+      }, {
+        "item" : "13",
+        "count" : "14"
+      }, {
+        "item" : "18",
+        "count" : "14"
+      }, {
+        "item" : "14",
+        "count" : "12"
+      }, {
+        "item" : "20",
+        "count" : "11"
+      }, {
+        "item" : "24",
+        "count" : "11"
+      }, {
+        "item" : "25",
+        "count" : "11"
+      }, {
+        "item" : "16",
+        "count" : "9"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785759,
+    "name" : "Middle Income Units",
+    "dataTypeName" : "number",
+    "description" : "Middle Income Units are units with rents that are affordable to households earning 121 to 165% of the area median income (AMI).",
+    "fieldName" : "middle_income_units",
+    "position" : 28,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431883,
+    "width" : 256,
+    "cachedContents" : {
+      "non_null" : "2691",
+      "largest" : "448",
+      "null" : "6860",
+      "top" : [ {
+        "item" : "3",
+        "count" : "635"
+      }, {
+        "item" : "2",
+        "count" : "192"
+      }, {
+        "item" : "1",
+        "count" : "190"
+      }, {
+        "item" : "4",
+        "count" : "153"
+      }, {
+        "item" : "6",
+        "count" : "150"
+      }, {
+        "item" : "5",
+        "count" : "147"
+      }, {
+        "item" : "8",
+        "count" : "98"
+      }, {
+        "item" : "9",
+        "count" : "92"
+      }, {
+        "item" : "7",
+        "count" : "89"
+      }, {
+        "item" : "14",
+        "count" : "55"
+      }, {
+        "item" : "12",
+        "count" : "54"
+      }, {
+        "item" : "10",
+        "count" : "50"
+      }, {
+        "item" : "13",
+        "count" : "49"
+      }, {
+        "item" : "15",
+        "count" : "42"
+      }, {
+        "item" : "11",
+        "count" : "41"
+      }, {
+        "item" : "16",
+        "count" : "40"
+      }, {
+        "item" : "18",
+        "count" : "39"
+      }, {
+        "item" : "19",
+        "count" : "25"
+      }, {
+        "item" : "20",
+        "count" : "24"
+      }, {
+        "item" : "21",
+        "count" : "23"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785760,
+    "name" : "Other Income Units",
+    "dataTypeName" : "number",
+    "description" : "Other Units are units reserved for building superintendents.",
+    "fieldName" : "other_income_units",
+    "position" : 29,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431885,
+    "width" : 160,
+    "cachedContents" : {
+      "non_null" : "1360",
+      "largest" : "16",
+      "null" : "8191",
+      "top" : [ {
+        "item" : "1",
+        "count" : "1329"
+      }, {
+        "item" : "2",
+        "count" : "26"
+      }, {
+        "item" : "3",
+        "count" : "3"
+      }, {
+        "item" : "9",
+        "count" : "1"
+      }, {
+        "item" : "16",
+        "count" : "1"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785761,
+    "name" : "Studio Units",
+    "dataTypeName" : "number",
+    "description" : "Studio Units are units with 0-bedrooms.",
+    "fieldName" : "studio_units",
+    "position" : 30,
+    "renderTypeName" : "number",
+    "tableColumnId" : 60408404,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "3198",
+      "largest" : "569",
+      "null" : "6353",
+      "top" : [ {
+        "item" : "1",
+        "count" : "817"
+      }, {
+        "item" : "2",
+        "count" : "320"
+      }, {
+        "item" : "3",
+        "count" : "191"
+      }, {
+        "item" : "6",
+        "count" : "165"
+      }, {
+        "item" : "4",
+        "count" : "160"
+      }, {
+        "item" : "5",
+        "count" : "133"
+      }, {
+        "item" : "8",
+        "count" : "95"
+      }, {
+        "item" : "12",
+        "count" : "76"
+      }, {
+        "item" : "7",
+        "count" : "76"
+      }, {
+        "item" : "23",
+        "count" : "52"
+      }, {
+        "item" : "9",
+        "count" : "51"
+      }, {
+        "item" : "10",
+        "count" : "49"
+      }, {
+        "item" : "16",
+        "count" : "44"
+      }, {
+        "item" : "15",
+        "count" : "42"
+      }, {
+        "item" : "14",
+        "count" : "42"
+      }, {
+        "item" : "18",
+        "count" : "41"
+      }, {
+        "item" : "11",
+        "count" : "37"
+      }, {
+        "item" : "13",
+        "count" : "33"
+      }, {
+        "item" : "19",
+        "count" : "29"
+      }, {
+        "item" : "20",
+        "count" : "26"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 540785762,
+    "name" : "1-BR Units",
+    "dataTypeName" : "number",
+    "description" : "1-BR Units are units with 1-bedroom.",
+    "fieldName" : "_1_br_units",
+    "position" : 31,
+    "renderTypeName" : "number",
+    "tableColumnId" : 60408429,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "6112",
+      "largest" : "312",
+      "null" : "3439",
+      "top" : [ {
+        "item" : "1",
+        "count" : "1147"
+      }, {
+        "item" : "3",
+        "count" : "522"
+      }, {
+        "item" : "2",
+        "count" : "508"
+      }, {
+        "item" : "4",
+        "count" : "357"
+      }, {
+        "item" : "6",
+        "count" : "313"
+      }, {
+        "item" : "5",
+        "count" : "304"
+      }, {
+        "item" : "8",
+        "count" : "187"
+      }, {
+        "item" : "12",
+        "count" : "178"
+      }, {
+        "item" : "7",
+        "count" : "172"
+      }, {
+        "item" : "10",
+        "count" : "152"
+      }, {
+        "item" : "9",
+        "count" : "134"
+      }, {
+        "item" : "11",
+        "count" : "105"
+      }, {
+        "item" : "14",
+        "count" : "83"
+      }, {
+        "item" : "13",
+        "count" : "75"
+      }, {
+        "item" : "18",
+        "count" : "70"
+      }, {
+        "item" : "19",
+        "count" : "62"
+      }, {
+        "item" : "17",
+        "count" : "58"
+      }, {
+        "item" : "15",
+        "count" : "57"
+      }, {
+        "item" : "16",
+        "count" : "56"
+      }, {
+        "item" : "24",
+        "count" : "53"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : { }
+  }, {
+    "id" : 540785763,
+    "name" : "2-BR Units",
+    "dataTypeName" : "number",
+    "description" : "2-BR Units are units with 2-bedrooms.",
+    "fieldName" : "_2_br_units",
+    "position" : 32,
+    "renderTypeName" : "number",
+    "tableColumnId" : 60408431,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "6042",
+      "largest" : "305",
+      "null" : "3509",
+      "top" : [ {
+        "item" : "1",
+        "count" : "1058"
+      }, {
+        "item" : "2",
+        "count" : "540"
+      }, {
+        "item" : "3",
+        "count" : "454"
+      }, {
+        "item" : "4",
+        "count" : "361"
+      }, {
+        "item" : "6",
+        "count" : "289"
+      }, {
+        "item" : "5",
+        "count" : "273"
+      }, {
+        "item" : "8",
+        "count" : "236"
+      }, {
+        "item" : "7",
+        "count" : "235"
+      }, {
+        "item" : "10",
+        "count" : "188"
+      }, {
+        "item" : "9",
+        "count" : "168"
+      }, {
+        "item" : "12",
+        "count" : "161"
+      }, {
+        "item" : "11",
+        "count" : "129"
+      }, {
+        "item" : "13",
+        "count" : "98"
+      }, {
+        "item" : "15",
+        "count" : "94"
+      }, {
+        "item" : "14",
+        "count" : "87"
+      }, {
+        "item" : "16",
+        "count" : "85"
+      }, {
+        "item" : "18",
+        "count" : "84"
+      }, {
+        "item" : "24",
+        "count" : "77"
+      }, {
+        "item" : "17",
+        "count" : "71"
+      }, {
+        "item" : "23",
+        "count" : "51"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : { }
+  }, {
+    "id" : 540785764,
+    "name" : "3-BR Units",
+    "dataTypeName" : "number",
+    "description" : "3-BR Units are units with 3-bedrooms.",
+    "fieldName" : "_3_br_units",
+    "position" : 33,
+    "renderTypeName" : "number",
+    "tableColumnId" : 60408432,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "3429",
+      "largest" : "193",
+      "null" : "6122",
+      "top" : [ {
+        "item" : "1",
+        "count" : "990"
+      }, {
+        "item" : "2",
+        "count" : "305"
+      }, {
+        "item" : "3",
+        "count" : "241"
+      }, {
+        "item" : "4",
+        "count" : "236"
+      }, {
+        "item" : "6",
+        "count" : "193"
+      }, {
+        "item" : "5",
+        "count" : "191"
+      }, {
+        "item" : "8",
+        "count" : "105"
+      }, {
+        "item" : "12",
+        "count" : "102"
+      }, {
+        "item" : "10",
+        "count" : "100"
+      }, {
+        "item" : "7",
+        "count" : "95"
+      }, {
+        "item" : "9",
+        "count" : "76"
+      }, {
+        "item" : "11",
+        "count" : "62"
+      }, {
+        "item" : "23",
+        "count" : "52"
+      }, {
+        "item" : "13",
+        "count" : "43"
+      }, {
+        "item" : "16",
+        "count" : "40"
+      }, {
+        "item" : "50",
+        "count" : "38"
+      }, {
+        "item" : "14",
+        "count" : "36"
+      }, {
+        "item" : "15",
+        "count" : "31"
+      }, {
+        "item" : "24",
+        "count" : "27"
+      }, {
+        "item" : "52",
+        "count" : "27"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : { }
+  }, {
+    "id" : 540785765,
+    "name" : "4-BR Units",
+    "dataTypeName" : "number",
+    "description" : "4-BR Units are units with 4-bedrooms.",
+    "fieldName" : "_4_br_units",
+    "position" : 34,
+    "renderTypeName" : "number",
+    "tableColumnId" : 60408433,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "561",
+      "largest" : "115",
+      "null" : "8990",
+      "top" : [ {
+        "item" : "1",
+        "count" : "217"
+      }, {
+        "item" : "2",
+        "count" : "81"
+      }, {
+        "item" : "4",
+        "count" : "55"
+      }, {
+        "item" : "5",
+        "count" : "42"
+      }, {
+        "item" : "6",
+        "count" : "31"
+      }, {
+        "item" : "3",
+        "count" : "24"
+      }, {
+        "item" : "10",
+        "count" : "14"
+      }, {
+        "item" : "11",
+        "count" : "14"
+      }, {
+        "item" : "7",
+        "count" : "12"
+      }, {
+        "item" : "8",
+        "count" : "12"
+      }, {
+        "item" : "9",
+        "count" : "11"
+      }, {
+        "item" : "19",
+        "count" : "5"
+      }, {
+        "item" : "12",
+        "count" : "5"
+      }, {
+        "item" : "16",
+        "count" : "4"
+      }, {
+        "item" : "13",
+        "count" : "4"
+      }, {
+        "item" : "21",
+        "count" : "4"
+      }, {
+        "item" : "23",
+        "count" : "3"
+      }, {
+        "item" : "18",
+        "count" : "2"
+      }, {
+        "item" : "15",
+        "count" : "2"
+      }, {
+        "item" : "14",
+        "count" : "2"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785766,
+    "name" : "5-BR Units",
+    "dataTypeName" : "number",
+    "description" : "5-BR Units are units with 5-bedrooms.",
+    "fieldName" : "_5_br_units",
+    "position" : 35,
+    "renderTypeName" : "number",
+    "tableColumnId" : 60408434,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "73",
+      "largest" : "23",
+      "null" : "9478",
+      "top" : [ {
+        "item" : "1",
+        "count" : "43"
+      }, {
+        "item" : "2",
+        "count" : "10"
+      }, {
+        "item" : "5",
+        "count" : "5"
+      }, {
+        "item" : "4",
+        "count" : "4"
+      }, {
+        "item" : "3",
+        "count" : "3"
+      }, {
+        "item" : "8",
+        "count" : "3"
+      }, {
+        "item" : "23",
+        "count" : "1"
+      }, {
+        "item" : "6",
+        "count" : "1"
+      }, {
+        "item" : "7",
+        "count" : "1"
+      }, {
+        "item" : "10",
+        "count" : "1"
+      }, {
+        "item" : "13",
+        "count" : "1"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : { }
+  }, {
+    "id" : 540785767,
+    "name" : "6-BR+ Units",
+    "dataTypeName" : "number",
+    "description" : "6-BR+ Units are units with 6-bedrooms or more.",
+    "fieldName" : "_6_br_units",
+    "position" : 36,
+    "renderTypeName" : "number",
+    "tableColumnId" : 60408435,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "27",
+      "largest" : "28",
+      "null" : "9524",
+      "top" : [ {
+        "item" : "1",
+        "count" : "16"
+      }, {
+        "item" : "3",
+        "count" : "5"
+      }, {
+        "item" : "2",
+        "count" : "3"
+      }, {
+        "item" : "28",
+        "count" : "2"
+      }, {
+        "item" : "4",
+        "count" : "1"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : { }
+  }, {
+    "id" : 540785768,
+    "name" : "Unknown-BR Units",
+    "dataTypeName" : "number",
+    "description" : "Unknown-BR Units are units with an unknown number of bedrooms.",
+    "fieldName" : "unknown_br_units",
+    "position" : 37,
+    "renderTypeName" : "number",
+    "tableColumnId" : 60408456,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "689",
+      "largest" : "536",
+      "null" : "8862",
+      "top" : [ {
+        "item" : "1",
+        "count" : "428"
+      }, {
+        "item" : "2",
+        "count" : "187"
+      }, {
+        "item" : "3",
+        "count" : "40"
+      }, {
+        "item" : "4",
+        "count" : "15"
+      }, {
+        "item" : "12",
+        "count" : "3"
+      }, {
+        "item" : "24",
+        "count" : "1"
+      }, {
+        "item" : "25",
+        "count" : "1"
+      }, {
+        "item" : "30",
+        "count" : "1"
+      }, {
+        "item" : "32",
+        "count" : "1"
+      }, {
+        "item" : "42",
+        "count" : "1"
+      }, {
+        "item" : "73",
+        "count" : "1"
+      }, {
+        "item" : "80",
+        "count" : "1"
+      }, {
+        "item" : "92",
+        "count" : "1"
+      }, {
+        "item" : "107",
+        "count" : "1"
+      }, {
+        "item" : "147",
+        "count" : "1"
+      }, {
+        "item" : "207",
+        "count" : "1"
+      }, {
+        "item" : "252",
+        "count" : "1"
+      }, {
+        "item" : "269",
+        "count" : "1"
+      }, {
+        "item" : "343",
+        "count" : "1"
+      }, {
+        "item" : "422",
+        "count" : "1"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : { }
+  }, {
+    "id" : 540785769,
+    "name" : "Counted Rental Units",
+    "dataTypeName" : "number",
+    "description" : "Counted Rental Units are the units in the building, counted toward the Housing New York plan, where assistance has been provided to landlords in exchange for a requirement for affordable units.",
+    "fieldName" : "counted_rental_units",
+    "position" : 38,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431887,
+    "width" : 340,
+    "cachedContents" : {
+      "non_null" : "6944",
+      "largest" : "917",
+      "null" : "2607",
+      "top" : [ {
+        "item" : "3",
+        "count" : "805"
+      }, {
+        "item" : "8",
+        "count" : "384"
+      }, {
+        "item" : "6",
+        "count" : "357"
+      }, {
+        "item" : "2",
+        "count" : "352"
+      }, {
+        "item" : "4",
+        "count" : "301"
+      }, {
+        "item" : "10",
+        "count" : "224"
+      }, {
+        "item" : "5",
+        "count" : "197"
+      }, {
+        "item" : "9",
+        "count" : "196"
+      }, {
+        "item" : "7",
+        "count" : "168"
+      }, {
+        "item" : "12",
+        "count" : "160"
+      }, {
+        "item" : "16",
+        "count" : "160"
+      }, {
+        "item" : "1",
+        "count" : "158"
+      }, {
+        "item" : "20",
+        "count" : "141"
+      }, {
+        "item" : "15",
+        "count" : "138"
+      }, {
+        "item" : "18",
+        "count" : "118"
+      }, {
+        "item" : "14",
+        "count" : "110"
+      }, {
+        "item" : "11",
+        "count" : "110"
+      }, {
+        "item" : "13",
+        "count" : "103"
+      }, {
+        "item" : "24",
+        "count" : "99"
+      }, {
+        "item" : "42",
+        "count" : "85"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785770,
+    "name" : "Counted Homeownership Units",
+    "dataTypeName" : "number",
+    "description" : "Counted Homeownership Units are the units in the building, counted toward the Housing New York Plan, where assistance has been provided directly to homeowners.",
+    "fieldName" : "counted_homeownership_units",
+    "position" : 39,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431888,
+    "width" : 424,
+    "cachedContents" : {
+      "non_null" : "2730",
+      "largest" : "489",
+      "null" : "6821",
+      "top" : [ {
+        "item" : "1",
+        "count" : "1872"
+      }, {
+        "item" : "2",
+        "count" : "266"
+      }, {
+        "item" : "3",
+        "count" : "87"
+      }, {
+        "item" : "4",
+        "count" : "46"
+      }, {
+        "item" : "10",
+        "count" : "22"
+      }, {
+        "item" : "72",
+        "count" : "21"
+      }, {
+        "item" : "175",
+        "count" : "21"
+      }, {
+        "item" : "8",
+        "count" : "21"
+      }, {
+        "item" : "207",
+        "count" : "21"
+      }, {
+        "item" : "293",
+        "count" : "20"
+      }, {
+        "item" : "384",
+        "count" : "15"
+      }, {
+        "item" : "15",
+        "count" : "11"
+      }, {
+        "item" : "150",
+        "count" : "10"
+      }, {
+        "item" : "18",
+        "count" : "10"
+      }, {
+        "item" : "312",
+        "count" : "10"
+      }, {
+        "item" : "135",
+        "count" : "9"
+      }, {
+        "item" : "9",
+        "count" : "9"
+      }, {
+        "item" : "118",
+        "count" : "8"
+      }, {
+        "item" : "36",
+        "count" : "8"
+      }, {
+        "item" : "12",
+        "count" : "7"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785771,
+    "name" : "All Counted Units",
+    "dataTypeName" : "number",
+    "description" : "The Counted Units field indicates the total number of affordable units, counted towards the Housing New York plan, that are in the building.",
+    "fieldName" : "all_counted_units",
+    "position" : 40,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431890,
+    "width" : 304,
+    "cachedContents" : {
+      "non_null" : "9522",
+      "largest" : "917",
+      "null" : "29",
+      "top" : [ {
+        "item" : "1",
+        "count" : "1833"
+      }, {
+        "item" : "3",
+        "count" : "925"
+      }, {
+        "item" : "2",
+        "count" : "638"
+      }, {
+        "item" : "8",
+        "count" : "404"
+      }, {
+        "item" : "6",
+        "count" : "360"
+      }, {
+        "item" : "4",
+        "count" : "347"
+      }, {
+        "item" : "10",
+        "count" : "244"
+      }, {
+        "item" : "9",
+        "count" : "204"
+      }, {
+        "item" : "5",
+        "count" : "196"
+      }, {
+        "item" : "7",
+        "count" : "173"
+      }, {
+        "item" : "16",
+        "count" : "168"
+      }, {
+        "item" : "12",
+        "count" : "164"
+      }, {
+        "item" : "15",
+        "count" : "148"
+      }, {
+        "item" : "20",
+        "count" : "147"
+      }, {
+        "item" : "18",
+        "count" : "130"
+      }, {
+        "item" : "11",
+        "count" : "116"
+      }, {
+        "item" : "14",
+        "count" : "113"
+      }, {
+        "item" : "13",
+        "count" : "108"
+      }, {
+        "item" : "24",
+        "count" : "101"
+      }, {
+        "item" : "21",
+        "count" : "90"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 540785772,
+    "name" : "Total Units",
+    "dataTypeName" : "number",
+    "description" : "The Total Units field indicates the total number of units, affordable and market rate, in each building.",
+    "fieldName" : "total_units",
+    "position" : 41,
+    "renderTypeName" : "number",
+    "tableColumnId" : 41431892,
+    "width" : 232,
+    "cachedContents" : {
+      "non_null" : "9551",
+      "largest" : "1320",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "1823"
+      }, {
+        "item" : "8",
+        "count" : "590"
+      }, {
+        "item" : "2",
+        "count" : "478"
+      }, {
+        "item" : "10",
+        "count" : "405"
+      }, {
+        "item" : "6",
+        "count" : "309"
+      }, {
+        "item" : "3",
+        "count" : "308"
+      }, {
+        "item" : "4",
+        "count" : "212"
+      }, {
+        "item" : "9",
+        "count" : "204"
+      }, {
+        "item" : "20",
+        "count" : "180"
+      }, {
+        "item" : "16",
+        "count" : "177"
+      }, {
+        "item" : "7",
+        "count" : "174"
+      }, {
+        "item" : "12",
+        "count" : "164"
+      }, {
+        "item" : "15",
+        "count" : "143"
+      }, {
+        "item" : "18",
+        "count" : "125"
+      }, {
+        "item" : "24",
+        "count" : "107"
+      }, {
+        "item" : "25",
+        "count" : "102"
+      }, {
+        "item" : "14",
+        "count" : "97"
+      }, {
+        "item" : "17",
+        "count" : "96"
+      }, {
+        "item" : "13",
+        "count" : "95"
+      }, {
+        "item" : "21",
+        "count" : "95"
+      } ],
+      "smallest" : "1",
+      "count" : "9551",
+      "cardinality" : "9551"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "attachments" : [ {
+      "filename" : "Affordable_Housing_Production_by_Building_Data_Dictionary (Sept 2026).xlsx",
+      "assetId" : "0b807a95-1853-41ac-a1d4-94953a6e6ddd",
+      "name" : "Affordable_Housing_Production_by_Building_Data_Dictionary.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "No",
+        "Date Made Public" : "12/20/2016",
+        "Update Frequency" : "Quarterly"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Housing Preservation and Development (HPD)"
+      }
+    },
+    "rowLabel" : "building in a specific housing development or preservation project. A building may appear in the file more than once if it has been involved in multiple projects.",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "housing", "hpd", "development", "building", "affordable housing production" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}
