@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "source_hashes_verified": true,
+  "aggregation_conservation": true,
+  "one_to_one_joins": true,
+  "no_join_null_zero_imputation": true,
+  "full_year_analysis_cells": 20,
+  "primary_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "transport_clean_rows": 13308,
+  "housing_clean_rows": 9551
+}

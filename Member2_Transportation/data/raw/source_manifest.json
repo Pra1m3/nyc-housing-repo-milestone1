@@ -1,0 +1,32 @@
+{
+  "housing": {
+    "dataset_id": "hg8x-zxpr",
+    "title": "Affordable Housing Production by Building",
+    "catalog_id": "H2",
+    "dataset_url": "https://data.cityofnewyork.us/d/hg8x-zxpr",
+    "retrieval_url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?$limit=20000",
+    "retrieved_utc": "2026-11-09T16:39:18.458092+00:00",
+    "format_note": "Full JSON response converted to UTF-8 CSV without transforming source values; column order follows API JSON response.",
+    "pagination_note": "20000 limit exceeds verified count; not a sample, all source records returned. No dependence on response order.",
+    "verified_api_row_count": 9551,
+    "row_count_query": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?$select=count(*)",
+    "source_rows_updated_utc": "2026-09-30T19:21:51+00:00",
+    "sha256": "01ed5d1450933bdaccc31994ccb2f3baa7ff048be4149cde3b29858134858508",
+    "json_response_sha256": "d353ea8609c9ba8ed8c33a5c555e3e924851ab395a384f4bbaebf9445e0df7a2"
+  },
+  "transport": {
+    "dataset_id": "xeqp-qz8h",
+    "title": "Serious Injury Response, Tracking & Analysis Program (SIRTA)",
+    "catalog_id": "T4",
+    "dataset_url": "https://data.cityofnewyork.us/d/xeqp-qz8h",
+    "retrieval_url": "https://data.cityofnewyork.us/resource/xeqp-qz8h.json?$limit=20000",
+    "retrieved_utc": "2026-11-09T16:39:14.776629+00:00",
+    "format_note": "Full JSON response converted to UTF-8 CSV without transforming source values; column order follows API JSON response.",
+    "pagination_note": "20000 limit exceeds verified count; not a sample, all source records returned. No dependence on response order.",
+    "verified_api_row_count": 13754,
+    "row_count_query": "https://data.cityofnewyork.us/resource/xeqp-qz8h.json?$select=count(*)",
+    "source_rows_updated_utc": "2026-10-09T16:45:57+00:00",
+    "sha256": "c6c94d029ea5f4ba1d706c9004fe04372aa0cab7289d92960e6a631f16153646",
+    "json_response_sha256": "46427f44822c2fd49d1fe6204f82765187f8bd5edc022e64efa0f8c0ac35b485"
+  }
+}
