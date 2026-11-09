@@ -1,102 +1,182 @@
 # Cityscope — NYC Housing & Street Safety
 
-Interactive housing/transport research dashboard for Milestone 1. It uses the full H2 affordable-housing and T4 SIRTA source selections from the original Member 1 work, with the cleaning and integration from the Member 2/3 handoff.
+**Data Engineering and Visualization · Milestone 1 · Winter 2026**
 
-**Live website:** https://cityscope-nyc-housing.vercel.app/
-**Existing team repository:** https://github.com/Pra1m3/nyc-housing-repo-milestone1
-**Publication scope:** this repository update adds **Member 4's work only**: website source, compact app data, research notebook/figures, tests, deployment documentation and submission draft. The original Member 1 notebook is unchanged. The separate Member 2/3 handoffs are not added by this update. The public Vercel deployment was originally created directly from the local app build.
+Cityscope explores how affordable-housing activity and investigated serious-crash patterns vary across New York City. It combines NYC Open Data housing and transportation records, documents the cleaning and integration process, and presents the results through an interactive dashboard.
 
-## Run locally
+**[Open the dashboard](https://cityscope-nyc-housing.vercel.app/) · [Browse the repository](https://github.com/Pra1m3/nyc-housing-repo-milestone1)**
 
-Requires Node.js 20+ for tests/build and Python 3 for the local file server. No npm package installation or server database is needed.
+![Cityscope dashboard](member4/reports/desktop-preview.jpg)
+
+## Project overview
+
+The project follows a data engineering workflow: source selection, exploratory analysis, pre-integration cleaning, aggregation, integration, post-integration validation and visualization. Its central question is whether the geography and timing of housing activity align with the patterns recorded in serious-crash investigations.
+
+The dashboard provides:
+
+- Borough, year, housing-activity and crash-category dropdowns.
+- Text search that translates queries into filters.
+- A central **Generate Report** button that updates all six charts, summary figures, findings and the evidence table.
+- Interactive heatmaps, grouped bars, scatter plots and indexed time-series panels, with hover, zoom, pan and image export.
+- CSV export, a printable report, source links and explanations of the findings and limitations.
+- A responsive layout for desktop and mobile.
+
+Example searches include `Brooklyn 2022 new buildings`, `Queens 2023-2025 preservation fatal crashes` and `Bronx 2024 nonfatal`. Filter changes take effect when **Generate Report** is selected; **Reset** restores the default view.
+
+## Datasets
+
+| Domain | Dataset | NYC Open Data ID | Raw records | Columns |
+|---|---|---|---:|---:|
+| Housing | [Affordable Housing Production by Building](https://data.cityofnewyork.us/d/hg8x-zxpr) | `hg8x-zxpr` | 9,551 | 41 |
+| Transportation | [Serious Injury Response, Tracking & Analysis Program (SIRTA)](https://data.cityofnewyork.us/d/xeqp-qz8h) | `xeqp-qz8h` | 13,754 | 23 |
+
+Both datasets appear in the project catalog, satisfy the nine-column minimum and were downloaded in full. The analysis uses frozen snapshots retrieved on **9 November 2026**. Source metadata, retrieval details and checksums are included in the repository.
+
+Housing records include both new construction and preservation associated with project starts. SIRTA contains serious crashes investigated by NYC DOT; it does not represent every NYC crash or measure transit access.
+
+## Cleaning and integration
+
+Dates, borough names, geographic identifiers and categories are standardized before aggregation. Exact duplicates are removed; conflicting collision records and records without usable crash dates are quarantined. Missing unit values remain unknown, and plausible large buildings or multi-injury events are retained with outlier flags.
+
+The primary integration key is **borough × calendar year**. Housing uses project-start year; transportation uses crash year. Each source is aggregated before a validated one-to-one join, avoiding multiplication of unrelated project and crash records. Post-integration cleaning preserves missing joined measures, reconciles geographic columns and aligns data types.
+
+The default comparison covers the common full years **2022–2025**, with:
+
+- **20** matched borough-year cells.
+- **103,912** known HPD counted units; two contributing records have unknown counted-unit values.
+- **11,921** borough-located SIRTA records.
+
+The secondary ZIP analysis uses **2023–2025** and **306 complete matched ZIP-year cells** after geography and missing-value exclusions. The dashboard retains 2026 as an explicitly partial view through June 30; it is excluded from the default full-year comparison.
+
+Category filters apply independently to each domain before reaggregation. They do not establish links between individual housing buildings and crash events.
+
+## Research questions and findings
+
+| Assigned member | Research question | Visualization |
+|---|---|---|
+| 2 | How do borough shares of known housing units compare with shares of SIRTA records? | Grouped bar chart |
+| 2 | Does housing composition align with recorded severe injuries and fatalities per SIRTA record? | Bubble scatter plot |
+| 3 | Do housing and investigated-crash activity follow similar trajectories across boroughs? | Indexed time-series panels |
+| 3 | Are larger housing-unit counts associated with more SIRTA records within matched ZIP-years? | Log-scale scatter plot |
+| 4 | Do borough-level housing/crash share gaps persist across years? | Heatmap |
+| 4 | Is housing activity more geographically concentrated than SIRTA activity within matched ZIPs? | Effective-ZIP comparison |
+
+Queens has a higher share of SIRTA records than known housing units in each full year, while the Bronx shows the reverse pattern. Within the complete matched ZIP subset, housing-unit activity is more concentrated than SIRTA records in all five boroughs. The pooled ZIP-level association between housing counts and SIRTA counts is weak and varies by borough.
+
+These descriptive findings can guide coordinated HPD/DOT local review and further data collection. They do not establish causation or measure residents' crash risk.
+
+**Research coverage:** the published dashboard currently contains the six views above. The four-member milestone requires eight research questions and charts; Member 1's two additional research views and the assembled Member 3 integration notebook still need to be added for full submission coverage.
+
+## Repository structure
+
+```text
+.
+├── README.md
+├── vercel.json
+├── notebooks/
+│   ├── M1_Housing_Cleaning.ipynb
+│   └── M4_Website_Research.ipynb
+├── Member2_Transportation/
+│   ├── notebooks/M2_Transportation.ipynb
+│   ├── data/                  # Raw snapshots and processed tables
+│   ├── charts/                # Research and exploratory figures
+│   ├── reports/               # Findings, cleaning and validation evidence
+│   ├── pipeline.py
+│   └── reproduce.py
+├── member4/
+│   ├── research.py
+│   ├── prepare_data.py
+│   ├── reports/
+│   └── DEPLOYMENT.md
+└── website/
+    ├── index.html
+    ├── styles.css
+    ├── app.js
+    ├── core.js
+    ├── report-session.js
+    ├── data/nyc.json
+    └── tests/
+```
+
+Start with the [housing notebook](notebooks/M1_Housing_Cleaning.ipynb), [transportation notebook](Member2_Transportation/notebooks/M2_Transportation.ipynb) and [website/research notebook](notebooks/M4_Website_Research.ipynb). Detailed cleaning and join decisions are documented in [the analysis review](Member2_Transportation/REVIEW_AND_DECISIONS.md).
+
+## Run the dashboard locally
+
+Requirements: **Node.js 20+** and **Python 3**. The browser app needs no npm dependency installation, API keys or database.
 
 ```bash
-cd website
+git clone https://github.com/Pra1m3/nyc-housing-repo-milestone1.git
+cd nyc-housing-repo-milestone1/website
 npm test
 npm run build
 python3 -m http.server 4173 --directory dist
 ```
 
-Open http://localhost:4173/ . Serve through HTTP rather than double-clicking index.html, because the app loads a local JSON snapshot. The chart library is pinned to Plotly.js 4.1.1 from the official Plotly CDN; Google Fonts is cosmetic, with system-font fallbacks. Internet access is required for Plotly. Source data do not depend on live NYC API availability.
+Open **http://localhost:4173/**. Serve the app through HTTP rather than opening `index.html` directly, because it loads a local JSON file. Plotly.js 4.1.1 loads from the official CDN and requires internet access. The data snapshots are bundled, so the dashboard does not require live NYC API requests.
 
-The site includes four dropdowns (borough/year/housing type/crash severity), a text-search mode, Generate Report, six interactive research charts, dynamic story/limits, sources, an evidence table, CSV export and print-report support. Charts provide hover, zoom, pan, reset and PNG export. On mobile the filters move above the report. Text-query errors retain the last valid report. Generate Report locks controls and withholds CSV/print while all charts finish so the export always matches the visible completed report.
+## Reproduce the analysis
 
-Example searches:
-
-- `Brooklyn 2022 new buildings`
-- `Queens 2023-2025 preservation fatal crashes`
-- `Bronx 2024 nonfatal`
-
-Search supports one borough (including common aliases), a year/range between 2022 and 2026, housing type and crash severity. Unknown terms, unsupported years or conflicting categories show a clear error. Dropdown changes remain pending until generation; Reset restores the default report immediately.
-
-## Dataset meaning and integration
-
-- H2: [Affordable Housing Production by Building](https://data.cityofnewyork.us/d/hg8x-zxpr), original 9,551 rows and 41 columns.
-- T4: [SIRTA](https://data.cityofnewyork.us/d/xeqp-qz8h), original 13,754 rows and 23 columns.
-
-Exactly two sources, both in the supplied catalog; neither was sampled. The compact category-aware app data are derived from the prior Member 2/3 cleaning/integration handoff. Source links, field schemas and input hashes are recorded in `member4/reports/data_provenance.json`. Those separate handoffs are not included in this Member 4 commit. The original Member 1 notebook remains unchanged at `notebooks/M1_Housing_Cleaning.ipynb`.
-
-Primary geography is borough × project-start/crash year. Default full years are 2022–2025: 20 matched borough-year cells, 103,912 known counted housing units and 11,921 borough-located SIRTA records. Two contributing housing records have unknown counted units; strict totals remain unknown while known subtotals are labeled separately. Housing includes preservation and project starts, not all new occupied homes. SIRTA is investigated serious crashes, not all NYC crashes or transit access.
-
-2026 stops on June 30. It is available as an explicitly partial single-year view and excluded by default. Secondary ZIP research uses 2023–2025 only: 2022 SIRTA ZIP completeness is only 16.26%. Ambiguous geography, unmatched source cells and incomplete strict housing totals are excluded from the research comparison. There are 306 complete matched ZIP-years. Missing joined records are never zero-imputed.
-
-Housing and crash categories filter **each source independently**, then reaggregate and join. They do not link individual projects and crashes. Citywide share denominators still cover all five boroughs when one borough is displayed. Ratios are recalculated from counts. ZIP charts can correctly be empty for 2022/2026 or a category with no common observed coverage.
-
-## Rebuild app data and research
-
-The prepared website data are already bundled. To regenerate them from the separately supplied Member 3 handoff, extract that ZIP and use its absolute folder path:
+From the repository root, create a Python environment and install the analysis dependencies:
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -r member4/requirements.txt
-python member4/prepare_data.py --member3 /path/to/Member3_Integration
-python member4/research.py
+python -m pip install -r Member2_Transportation/requirements.txt
+python Member2_Transportation/reproduce.py
 ```
 
-The preparation script generates `website/data/nyc.json` from cleaned housing and SIRTA records, retaining domain/category aggregates and the documented eligible ZIP geography. Compact row schemas, source hashes and source links are in `member4/reports/data_provenance.json` and the JSON metadata. No student IDs or contributor details are deployed; only public-source aggregates and ordinary page assets are uploaded.
+On Windows, activate the environment with `.venv\Scripts\activate`.
 
-Open `notebooks/M4_Website_Research.ipynb` for Member 4's executed questions, charts, calculations, tests, contribution table and prompts. Install JupyterLab separately if you want to rerun interactively. The prior Member 2/3 analysis notebooks remain in their separate handoff ZIPs. Rebuilding the web output after any source/data change requires `cd website && npm run build`.
+To regenerate the compact website data and Member 4 research figures from the included cleaned records:
 
-## Research delivered
+```bash
+python member4/prepare_data.py --member3 Member2_Transportation
+python member4/research.py
+cd website
+npm test
+npm run build
+```
 
-| Member | Question / website view | Evidence |
-|---|---|---|
-| 2 | Borough distributions of known housing units and SIRTA records | Prior notebook + interactive grouped bars |
-| 2 | Housing composition versus affected people per SIRTA record | Prior notebook + interactive scatter |
-| 3 | Borough housing/SIRTA trajectories | Prior notebook + interactive indexed panels |
-| 3 | Matched ZIP-year housing/crash association | Prior notebook + interactive log scatter |
-| 4 | Do yearly borough share gaps persist? | M4 notebook + heatmap |
-| 4 | Is housing activity more concentrated across matched ZIPs? | M4 notebook + effective-ZIP bars |
+The `--member3` option names the shared integration input folder; `Member2_Transportation` contains the required processed tables in the current repository. To rerun notebooks interactively, install JupyterLab in the Python environment and open the notebook from the repository root or its notebook folder.
 
-Member 4 Q1 finds positive Queens and negative Bronx gaps in every full year. Q2 finds greater housing concentration within the matched ZIP subset in all five boroughs. Definitions, tabular evidence and limitations are in `member4/FINDINGS.md`. These are descriptive comparisons, not resident risk, causal estimates or significance claims.
+## Deployment
 
-## Vercel deployment
+The website is hosted on **Vercel** at **https://cityscope-nyc-housing.vercel.app/**.
 
-Current project: `cityscope-nyc-housing`, in the connected Vercel team. It serves the static output directly, with no server functions, API keys, database or paid add-ons introduced. The production deployment is public so the course team can open it without a Vercel login. Only this newly created public-data project was configured for public access.
+The root `vercel.json` defines:
 
-The current deployment was created from the seven files in `website/dist/`. It did not use a Git commit. The exact deployment ID, source-asset hashes, public URL and verification results are recorded in `member4/DEPLOYMENT.md` and `member4/reports/deployment.json`.
+| Setting | Value |
+|---|---|
+| Framework preset | Other |
+| Build command | `cd website && npm run build` |
+| Output directory | `website/dist` |
+| Install command | `echo No runtime package installation required` |
 
-For a future manual deployment after reviewing changes:
+To deploy manually, run `npx vercel link` from the repository root, select the `cityscope-nyc-housing` project, then run `npx vercel --prod`. Alternatively, connect the repository to Vercel using the settings above and select the intended production branch.
 
-1. Run the tests and rebuild locally using the commands above.
-2. From the repository root, run `npx vercel link` and select the existing `cityscope-nyc-housing` project in the intended team.
-3. Run `npx vercel --prod`. The root `vercel.json` declares the build command and output directory. This direct deployment does not require making a Git commit.
-4. Check the production URL, default totals, a category/search report, partial-year warning and CSV export before sharing it.
+The deployed site was tested for public access, report generation, text search, reset, CSV export and responsive layout. The initial deployment used the local static build; automatic Git-based deployment should not be assumed unless the repository connection is configured. Deployment evidence is recorded in [the deployment guide](member4/DEPLOYMENT.md).
 
-For future Git-based deployment after reviewing the intended source and branch, publish the reviewed source to the team repository, then connect that repository to this existing Vercel project. Use Framework Preset **Other**, Build Command `cd website && npm run build`, Output Directory `website/dist`, and Install Command `echo No runtime package installation required`. Verify the intended production branch before enabling automatic production deploys. This commit contains Member 4 source only; publish the separate Member 2/3 handoffs when the team authorizes that work.
+## Validation
 
-## Team and actual contributions
+The website has **10 automated tests**, including checks for search interpretation, independent category filtering, unknown-value preservation, report/export consistency and all 270 offered single-year dropdown combinations. Default totals and ZIP concentration results agree with the Python research calculations. Deployment checks compare the seven live assets against the local build by SHA-256.
 
-| Assigned member | Name | Student ID | Status |
+See [website verification](member4/reports/VERIFICATION.md) and [analysis validation results](Member2_Transportation/reports/validation_results.json).
+
+## Team contributions
+
+| Member | Name | Student ID | Assigned responsibilities |
 |---|---|---|---|
-| 1 | Mohamed Walid | 16002100 | Original housing cleaning supplied; two research questions/charts missing |
-| 2 | Omar Aziz | 16007095 | Transportation scope completed in prior assisted handoff |
-| 3 | Ahmad Salah | 16008995 | Integration/notebook scope completed in prior assisted handoff |
-| 4 | Mohamed Khaled | 16003895 | Website, deployment, two research questions/charts, setup/deployment documentation and submission draft |
+| 1 | Mohamed Walid | 16002100 | Housing dataset selection, exploration, cleaning and initial repository setup |
+| 2 | Omar Aziz | 16007095 | Transportation exploration, cleaning, aggregation and two research questions/charts |
+| 3 | Ahmad Salah | 16008995 | Integration strategy, post-integration cleaning, notebook coordination and two research questions/charts |
+| 4 | Mohamed Khaled | 16003895 | Interactive website, filtering/search/report flow, deployment, documentation, two research questions/charts and submission email preparation |
 
-Member 4 requested the Member 2/3 preparation with AI assistance. Assigned ownership is not a claim that those members independently authored the resulting work. See `member4/CONTRIBUTIONS.csv`, `member4/PROMPTS_USED.md` and the prior analysis disclosure.
+The table records role allocation. Detailed contribution and AI-assistance records are retained in [the analysis contribution table](Member2_Transportation/CONTRIBUTIONS.csv), [Member 4's contribution table](member4/CONTRIBUTIONS.csv) and the corresponding [analysis](Member2_Transportation/PROMPTS_USED.md) and [website](member4/PROMPTS_USED.md) prompt logs.
 
-## Remaining submission steps
+## Limitations
 
-Member 4's requested implementation and deployment are complete. Before submission, review the work, add Member 1's two missing cross-domain questions/charts to reach the required eight, update the assembled notebook/website accordingly, then publish any remaining approved team source. The prepared `member4/submission_email.eml` has the supplied team names/IDs, official dataset links, existing repository link and actual deployment URL. It is a **draft, not sent**, and must not be sent until the repository contains all reviewed team work and the missing research is added. `member4/SUBMISSION_STATUS.md` records these gates explicitly.
+- HPD project-start activity includes preservation and is not a measure of all newly occupied housing or the housing stock.
+- SIRTA is a selected set of serious-crash investigations; reporting and investigation coverage may vary over time.
+- ZIP completeness varies by source and year. Matched-only analysis excludes areas with unavailable or ambiguous geography.
+- Counts are not adjusted for population, traffic exposure or ZIP size. Borough totals can hide local differences.
+- Missing values are not treated as zero, and 2026 is partial. Associations are descriptive rather than causal.
