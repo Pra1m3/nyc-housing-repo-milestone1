@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+website/dist/
+node_modules/
+__pycache__/
+.venv/
+.vercel/

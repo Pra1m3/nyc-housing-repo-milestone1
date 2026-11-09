@@ -1,0 +1,75 @@
+{
+  "M4_Q1": {
+    "queens_gap_pp_by_year": {
+      "2022": 12.988,
+      "2023": 12.128,
+      "2024": 9.396,
+      "2025": 13.399
+    },
+    "bronx_gap_pp_by_year": {
+      "2022": -10.512,
+      "2023": -12.197,
+      "2024": -13.86,
+      "2025": -9.241
+    }
+  },
+  "M4_Q2": [
+    {
+      "borough": "BRONX",
+      "observed_zips": 21,
+      "housing_hhi": 0.08442,
+      "sirta_hhi": 0.056159,
+      "housing_effective_zips": 11.845476,
+      "sirta_effective_zips": 17.806582
+    },
+    {
+      "borough": "BROOKLYN",
+      "observed_zips": 36,
+      "housing_hhi": 0.052473,
+      "sirta_hhi": 0.034928,
+      "housing_effective_zips": 19.057268,
+      "sirta_effective_zips": 28.630136
+    },
+    {
+      "borough": "MANHATTAN",
+      "observed_zips": 34,
+      "housing_hhi": 0.055856,
+      "sirta_hhi": 0.040296,
+      "housing_effective_zips": 17.903149,
+      "sirta_effective_zips": 24.816154
+    },
+    {
+      "borough": "QUEENS",
+      "observed_zips": 33,
+      "housing_hhi": 0.091832,
+      "sirta_hhi": 0.052513,
+      "housing_effective_zips": 10.889429,
+      "sirta_effective_zips": 19.043012
+    },
+    {
+      "borough": "STATEN ISLAND",
+      "observed_zips": 7,
+      "housing_hhi": 0.402581,
+      "sirta_hhi": 0.19548,
+      "housing_effective_zips": 2.483972,
+      "sirta_effective_zips": 5.115617
+    }
+  ],
+  "scope": {
+    "main_years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "main_cells": 20,
+    "zip_years": [
+      2023,
+      2024,
+      2025
+    ],
+    "complete_zip_years": 306,
+    "known_units": 103912,
+    "sirta_records": 11921
+  }
+}

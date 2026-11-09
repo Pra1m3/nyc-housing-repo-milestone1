@@ -1,0 +1,32 @@
+To: ICS503Data@gmail.com
+Subject: Data Engineering and Visualization - Milestone 1 - NYC Housing and Street Safety
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Dear Course Team,
+
+Please find our Milestone 1 project, Cityscope: NYC Housing and Street Safety.
+
+Team members:
+- Mohamed Walid - 16002100
+- Omar Aziz - 16007095
+- Ahmad Salah - 16008995
+- Mohamed Khaled - 16003895
+
+GitHub repository:
+https://github.com/Pra1m3/nyc-housing-repo-milestone1
+
+Deployed website:
+https://cityscope-nyc-housing.vercel.app/
+
+Datasets:
+- Affordable Housing Production by Building (H2):
+  https://data.cityofnewyork.us/d/hg8x-zxpr
+- Serious Injury Response, Tracking & Analysis Program (T4):
+  https://data.cityofnewyork.us/d/xeqp-qz8h
+
+Our project explores the relationship between affordable-housing activity and investigated serious-crash patterns across NYC boroughs and ZIP codes. The notebook documents data exploration, cleaning, integration decisions, research questions, findings and limitations. The website provides filters, text search and a central Generate Report button for interactive exploration.
+
+Best regards,
+Mohamed Khaled
+On behalf of the team

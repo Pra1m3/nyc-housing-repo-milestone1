@@ -1,0 +1,5 @@
+role,name,student_id,assigned_work,status,actual_work_disclosure
+Member 1,Mohamed Walid,16002100,"Housing selection and cleaning; two research questions/charts","Original housing notebook supplied; two research charts missing","Supplied original notebook retained unchanged"
+Member 2,Omar Aziz,16007095,"Transportation EDA cleaning aggregation; M2 Q1/Q2","Completed in prior handoff","Prepared at Member 4 request with AI assistance; not a claim of independent Member 2 authorship"
+Member 3,Ahmad Salah,16008995,"Integration post-cleaning assembled notebook; M3 Q1/Q2","Completed in prior handoff","Prepared at Member 4 request with AI assistance; not a claim of independent Member 3 authorship"
+Member 4,Mohamed Khaled,16003895,"Website filters search Generate Report interactive charts deployment README email M4 Q1/Q2","Website deployed; Member 4 source authorized for publication","Requested and reviewed with AI assistance; Member 4 publication now authorized"

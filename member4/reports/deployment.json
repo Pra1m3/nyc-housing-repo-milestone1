@@ -1,0 +1,56 @@
+{
+  "url": "https://cityscope-nyc-housing.vercel.app/",
+  "deployment_id": "dpl_9yMyhSmNZeL9EufyWA9RKdKj2sUL",
+  "project_id": "prj_V2EnLP9vDrjAm4WBDCyVDkwHSiO6",
+  "state": "READY",
+  "environment": "production",
+  "hosting": "Vercel",
+  "deployment_source": "local static assets, no Git commit or push",
+  "base_commit_unchanged": "f2260896a4bd37dadb5f28046de97d77708146e8",
+  "public_without_auth": true,
+  "assets": [
+    {
+      "path": "app.js",
+      "status": 200,
+      "sha256": "a3f4688190ab241e4119aeb22a24038f2bb531573a427ddb40ab7f0b28b8712d",
+      "bytes": 15384
+    },
+    {
+      "path": "core.js",
+      "status": 200,
+      "sha256": "6a25b89c8eb52003983cce6e78d0831ee72a4d1de439ed9128398929fbfbbf49",
+      "bytes": 6930
+    },
+    {
+      "path": "data/nyc.json",
+      "status": 200,
+      "sha256": "7d3fb41504a7c91e30c95304c24ae52eb246340c5857bbb8c6cfcf590223c932",
+      "bytes": 26951
+    },
+    {
+      "path": "icon.svg",
+      "status": 200,
+      "sha256": "3ce81f3919e3e9d7ba6bc7b36d8131f26ee327a13e141e17b09c22a209382c28",
+      "bytes": 213
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "8111c20d22c3901d8ee9b23f883b33321ae622481bbbaabbc85563741d6e06b1",
+      "bytes": 11288
+    },
+    {
+      "path": "report-session.js",
+      "status": 200,
+      "sha256": "0c24030552433b9daac875085f69e99e25dbf4c8f3ca7f65f82e4af2b3376b7e",
+      "bytes": 460
+    },
+    {
+      "path": "styles.css",
+      "status": 200,
+      "sha256": "c151a31378ced3105a0a78f1ced34ce057062313032b712fe60a4251f62b976d",
+      "bytes": 12811
+    }
+  ],
+  "student_ids_in_deployed_assets": false
+}
