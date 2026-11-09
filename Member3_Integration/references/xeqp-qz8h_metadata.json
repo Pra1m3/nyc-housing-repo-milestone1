@@ -1,0 +1,1805 @@
+{
+  "id" : "xeqp-qz8h",
+  "name" : "Serious Injury Response, Tracking & Analysis Program (SIRTA)",
+  "assetType" : "dataset",
+  "attribution" : "Department of Transportation (DOT)",
+  "attributionLink" : "https://www.nyc.gov/html/dot/html/about/dotlibrary.shtml#data",
+  "averageRating" : 0,
+  "category" : "Transportation",
+  "createdAt" : 1687530153,
+  "description" : "In accordance with NYC Administrative Code section 19-182.3, the Serious Injury Response, Tracking & Analysis Program (SIRTA) is a program at the New York City Department of Transportation (NYC DOT) that investigates, analyzes and reports on serious vehicular crashes, review street design, infrastructure and driver behavior at each crash location, and makes recommendations for safety street design or infrastructure. This dataset provides information on serious vehicular crashes that were analyzed and reported on as part of SIRTA.   For more information, please visit the NYC DOT website: https://www.nyc.gov/html/dot/html/about/dotlibrary.shtml#data",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 3179,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 39849080,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1691423659,
+  "publicationGroup" : 19190788,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1791564357,
+  "rowsUpdatedBy" : "d2qk-x9en",
+  "tableId" : 19246891,
+  "totalTimesRated" : 0,
+  "viewCount" : 5373,
+  "viewLastModified" : 1791564354,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1691423862,
+    "reviewedAutomatically" : false,
+    "state" : "approved",
+    "submissionId" : 5681679,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1691423735,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "reviewer" : {
+      "id" : "d5dp-fses",
+      "displayName" : "afinkel"
+    },
+    "submissionDetails" : {
+      "permissionType" : "read"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1691423862,
+      "failureCount" : 0,
+      "startedAt" : 1691423862,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "d5dp-fses",
+      "displayName" : "afinkel"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 579260124,
+    "name" : "Collision ID",
+    "dataTypeName" : "number",
+    "description" : "Unique ID assigned to the crash event.",
+    "fieldName" : "open_data_crash_id",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147247836,
+    "cachedContents" : {
+      "non_null" : "13310",
+      "largest" : "121326075",
+      "null" : "444",
+      "top" : [ {
+        "item" : "4597666",
+        "count" : "2"
+      }, {
+        "item" : "4790366",
+        "count" : "1"
+      }, {
+        "item" : "4660857",
+        "count" : "1"
+      }, {
+        "item" : "4731412",
+        "count" : "1"
+      }, {
+        "item" : "4549177",
+        "count" : "1"
+      }, {
+        "item" : "4730019",
+        "count" : "1"
+      }, {
+        "item" : "39226048",
+        "count" : "1"
+      }, {
+        "item" : "4840259",
+        "count" : "1"
+      }, {
+        "item" : "4703647",
+        "count" : "1"
+      }, {
+        "item" : "4874312",
+        "count" : "1"
+      }, {
+        "item" : "4820531",
+        "count" : "1"
+      }, {
+        "item" : "4631947",
+        "count" : "1"
+      }, {
+        "item" : "4675328",
+        "count" : "1"
+      }, {
+        "item" : "4753880",
+        "count" : "1"
+      }, {
+        "item" : "4771663",
+        "count" : "1"
+      }, {
+        "item" : "4613457",
+        "count" : "1"
+      }, {
+        "item" : "4718182",
+        "count" : "1"
+      }, {
+        "item" : "4726523",
+        "count" : "1"
+      }, {
+        "item" : "4687847",
+        "count" : "1"
+      }, {
+        "item" : "4538064",
+        "count" : "1"
+      } ],
+      "smallest" : "2126022",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "noCommas" : "true",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 579260126,
+    "name" : "Crash Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "Date of the crash. ",
+    "fieldName" : "crash_date",
+    "position" : 2,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 147247834,
+    "cachedContents" : {
+      "non_null" : "13310",
+      "largest" : "2026-06-30T00:00:00.000",
+      "null" : "444",
+      "top" : [ {
+        "item" : "2022-05-21T00:00:00.000",
+        "count" : "22"
+      }, {
+        "item" : "2024-07-11T00:00:00.000",
+        "count" : "21"
+      }, {
+        "item" : "2022-06-15T00:00:00.000",
+        "count" : "21"
+      }, {
+        "item" : "2022-10-08T00:00:00.000",
+        "count" : "20"
+      }, {
+        "item" : "2022-07-01T00:00:00.000",
+        "count" : "20"
+      }, {
+        "item" : "2026-05-19T00:00:00.000",
+        "count" : "19"
+      }, {
+        "item" : "2022-06-04T00:00:00.000",
+        "count" : "19"
+      }, {
+        "item" : "2025-05-03T00:00:00.000",
+        "count" : "18"
+      }, {
+        "item" : "2024-09-13T00:00:00.000",
+        "count" : "18"
+      }, {
+        "item" : "2026-04-17T00:00:00.000",
+        "count" : "18"
+      }, {
+        "item" : "2023-07-05T00:00:00.000",
+        "count" : "17"
+      }, {
+        "item" : "2025-03-21T00:00:00.000",
+        "count" : "17"
+      }, {
+        "item" : "2023-08-04T00:00:00.000",
+        "count" : "17"
+      }, {
+        "item" : "2025-07-03T00:00:00.000",
+        "count" : "17"
+      }, {
+        "item" : "2025-09-19T00:00:00.000",
+        "count" : "17"
+      }, {
+        "item" : "2023-09-04T00:00:00.000",
+        "count" : "17"
+      }, {
+        "item" : "2025-09-27T00:00:00.000",
+        "count" : "17"
+      }, {
+        "item" : "2026-06-02T00:00:00.000",
+        "count" : "17"
+      }, {
+        "item" : "2024-12-16T00:00:00.000",
+        "count" : "16"
+      }, {
+        "item" : "2022-09-15T00:00:00.000",
+        "count" : "16"
+      } ],
+      "smallest" : "2022-01-01T00:00:00.000",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : {
+      "view" : "date"
+    }
+  }, {
+    "id" : 579260127,
+    "name" : "Crash Time",
+    "dataTypeName" : "text",
+    "description" : "Time of the crash.",
+    "fieldName" : "crash_time",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 147247833,
+    "cachedContents" : {
+      "non_null" : "13310",
+      "largest" : "9:57",
+      "null" : "444",
+      "top" : [ {
+        "item" : "00:00",
+        "count" : "186"
+      }, {
+        "item" : "15:00",
+        "count" : "99"
+      }, {
+        "item" : "18:00",
+        "count" : "87"
+      }, {
+        "item" : "17:00",
+        "count" : "85"
+      }, {
+        "item" : "16:00",
+        "count" : "84"
+      }, {
+        "item" : "13:00",
+        "count" : "84"
+      }, {
+        "item" : "14:00",
+        "count" : "82"
+      }, {
+        "item" : "21:00",
+        "count" : "81"
+      }, {
+        "item" : "18:30",
+        "count" : "80"
+      }, {
+        "item" : "19:00",
+        "count" : "76"
+      }, {
+        "item" : "17:30",
+        "count" : "69"
+      }, {
+        "item" : "14:30",
+        "count" : "65"
+      }, {
+        "item" : "16:30",
+        "count" : "62"
+      }, {
+        "item" : "22:00",
+        "count" : "61"
+      }, {
+        "item" : "20:00",
+        "count" : "60"
+      }, {
+        "item" : "15:30",
+        "count" : "55"
+      }, {
+        "item" : "23:00",
+        "count" : "55"
+      }, {
+        "item" : "13:30",
+        "count" : "55"
+      }, {
+        "item" : "12:00",
+        "count" : "54"
+      }, {
+        "item" : "11:00",
+        "count" : "53"
+      } ],
+      "smallest" : "0:00",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : { }
+  }, {
+    "id" : 579260128,
+    "name" : "Crash Police Precinct",
+    "dataTypeName" : "number",
+    "description" : "The police precinct number for the location of the crash. ",
+    "fieldName" : "crash_police_precinct",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147247832,
+    "cachedContents" : {
+      "non_null" : "13310",
+      "largest" : "123",
+      "null" : "444",
+      "top" : [ {
+        "item" : "109",
+        "count" : "391"
+      }, {
+        "item" : "75",
+        "count" : "332"
+      }, {
+        "item" : "40",
+        "count" : "317"
+      }, {
+        "item" : "106",
+        "count" : "294"
+      }, {
+        "item" : "47",
+        "count" : "283"
+      }, {
+        "item" : "107",
+        "count" : "270"
+      }, {
+        "item" : "67",
+        "count" : "264"
+      }, {
+        "item" : "44",
+        "count" : "263"
+      }, {
+        "item" : "114",
+        "count" : "263"
+      }, {
+        "item" : "115",
+        "count" : "255"
+      }, {
+        "item" : "66",
+        "count" : "254"
+      }, {
+        "item" : "90",
+        "count" : "247"
+      }, {
+        "item" : "104",
+        "count" : "246"
+      }, {
+        "item" : "19",
+        "count" : "244"
+      }, {
+        "item" : "108",
+        "count" : "238"
+      }, {
+        "item" : "105",
+        "count" : "234"
+      }, {
+        "item" : "70",
+        "count" : "233"
+      }, {
+        "item" : "61",
+        "count" : "230"
+      }, {
+        "item" : "46",
+        "count" : "225"
+      }, {
+        "item" : "43",
+        "count" : "222"
+      } ],
+      "smallest" : "1",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 579260129,
+    "name" : "Crash Borough",
+    "dataTypeName" : "text",
+    "description" : "The borough of the location of the crash.",
+    "fieldName" : "crash_borough",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 147247831,
+    "cachedContents" : {
+      "non_null" : "13255",
+      "largest" : "Staten Island",
+      "null" : "499",
+      "top" : [ {
+        "item" : "Brooklyn",
+        "count" : "3954"
+      }, {
+        "item" : "Queens",
+        "count" : "3282"
+      }, {
+        "item" : "Manhattan",
+        "count" : "2733"
+      }, {
+        "item" : "Bronx",
+        "count" : "2617"
+      }, {
+        "item" : "Staten Island",
+        "count" : "669"
+      } ],
+      "smallest" : "Bronx",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : { }
+  }, {
+    "id" : 579260130,
+    "name" : "Total Non-Severe Injuries",
+    "dataTypeName" : "number",
+    "description" : "Number of crash injuries that are non-severe.",
+    "fieldName" : "total_non_severe_injuries",
+    "position" : 6,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147247830,
+    "cachedContents" : {
+      "non_null" : "13310",
+      "largest" : "19",
+      "null" : "444",
+      "top" : [ {
+        "item" : "0",
+        "count" : "11138"
+      }, {
+        "item" : "1",
+        "count" : "1451"
+      }, {
+        "item" : "2",
+        "count" : "400"
+      }, {
+        "item" : "3",
+        "count" : "165"
+      }, {
+        "item" : "4",
+        "count" : "76"
+      }, {
+        "item" : "5",
+        "count" : "38"
+      }, {
+        "item" : "7",
+        "count" : "13"
+      }, {
+        "item" : "6",
+        "count" : "13"
+      }, {
+        "item" : "8",
+        "count" : "3"
+      }, {
+        "item" : "10",
+        "count" : "3"
+      }, {
+        "item" : "15",
+        "count" : "2"
+      }, {
+        "item" : "12",
+        "count" : "2"
+      }, {
+        "item" : "9",
+        "count" : "2"
+      }, {
+        "item" : "14",
+        "count" : "2"
+      }, {
+        "item" : "19",
+        "count" : "1"
+      }, {
+        "item" : "18",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 579260131,
+    "name" : "Total Severe Injuries",
+    "dataTypeName" : "number",
+    "description" : "Number of injuries resulting from the crash.",
+    "fieldName" : "total_severe_injuries",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147247829,
+    "cachedContents" : {
+      "non_null" : "13310",
+      "largest" : "7",
+      "null" : "444",
+      "top" : [ {
+        "item" : "1",
+        "count" : "11566"
+      }, {
+        "item" : "0",
+        "count" : "920"
+      }, {
+        "item" : "2",
+        "count" : "653"
+      }, {
+        "item" : "3",
+        "count" : "116"
+      }, {
+        "item" : "4",
+        "count" : "40"
+      }, {
+        "item" : "5",
+        "count" : "10"
+      }, {
+        "item" : "7",
+        "count" : "3"
+      }, {
+        "item" : "6",
+        "count" : "2"
+      } ],
+      "smallest" : "0",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 579260132,
+    "name" : "Total Fatalities",
+    "dataTypeName" : "number",
+    "description" : "Total number of fatalities resulting from the crash. ",
+    "fieldName" : "total_fatalities",
+    "position" : 8,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147247828,
+    "cachedContents" : {
+      "non_null" : "13310",
+      "largest" : "5",
+      "null" : "444",
+      "top" : [ {
+        "item" : "0",
+        "count" : "12263"
+      }, {
+        "item" : "1",
+        "count" : "1004"
+      }, {
+        "item" : "2",
+        "count" : "34"
+      }, {
+        "item" : "3",
+        "count" : "7"
+      }, {
+        "item" : "5",
+        "count" : "1"
+      }, {
+        "item" : "4",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 579260133,
+    "name" : "Latitude",
+    "dataTypeName" : "number",
+    "description" : "Total number of fatalities resulting from the crash. ",
+    "fieldName" : "latitude",
+    "position" : 9,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147247827,
+    "cachedContents" : {
+      "non_null" : "10868",
+      "largest" : "40.912468",
+      "null" : "2886",
+      "top" : [ {
+        "item" : "40.81569",
+        "count" : "7"
+      }, {
+        "item" : "40.6627800",
+        "count" : "7"
+      }, {
+        "item" : "40.83648",
+        "count" : "7"
+      }, {
+        "item" : "40.8477000",
+        "count" : "6"
+      }, {
+        "item" : "40.6694760",
+        "count" : "6"
+      }, {
+        "item" : "40.6800160",
+        "count" : "6"
+      }, {
+        "item" : "40.7444650",
+        "count" : "6"
+      }, {
+        "item" : "40.72633",
+        "count" : "6"
+      }, {
+        "item" : "40.6685070",
+        "count" : "6"
+      }, {
+        "item" : "40.7554800",
+        "count" : "6"
+      }, {
+        "item" : "40.75484",
+        "count" : "6"
+      }, {
+        "item" : "40.844177",
+        "count" : "6"
+      }, {
+        "item" : "40.7412800",
+        "count" : "5"
+      }, {
+        "item" : "40.8357240",
+        "count" : "5"
+      }, {
+        "item" : "40.8874200",
+        "count" : "5"
+      }, {
+        "item" : "40.82419",
+        "count" : "5"
+      }, {
+        "item" : "40.7723270",
+        "count" : "5"
+      }, {
+        "item" : "40.8618620",
+        "count" : "5"
+      }, {
+        "item" : "40.6078640",
+        "count" : "5"
+      }, {
+        "item" : "40.8574180",
+        "count" : "5"
+      } ],
+      "smallest" : "40.499672",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 579260134,
+    "name" : "Longitude",
+    "dataTypeName" : "number",
+    "description" : "The longitude coordinates in decimal degree for the location of the crash. ",
+    "fieldName" : "longitude",
+    "position" : 10,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147247826,
+    "cachedContents" : {
+      "non_null" : "10868",
+      "largest" : "-73.7006",
+      "null" : "2886",
+      "top" : [ {
+        "item" : "-73.9464900",
+        "count" : "7"
+      }, {
+        "item" : "-73.8906860",
+        "count" : "7"
+      }, {
+        "item" : "-73.9314",
+        "count" : "6"
+      }, {
+        "item" : "-73.9662200",
+        "count" : "6"
+      }, {
+        "item" : "-73.8808600",
+        "count" : "6"
+      }, {
+        "item" : "-73.97351",
+        "count" : "6"
+      }, {
+        "item" : "-73.9009700",
+        "count" : "6"
+      }, {
+        "item" : "-73.8999600",
+        "count" : "6"
+      }, {
+        "item" : "-73.7717900",
+        "count" : "6"
+      }, {
+        "item" : "-73.9112000",
+        "count" : "6"
+      }, {
+        "item" : "-73.98412",
+        "count" : "6"
+      }, {
+        "item" : "-73.9303900",
+        "count" : "5"
+      }, {
+        "item" : "-73.9074100",
+        "count" : "5"
+      }, {
+        "item" : "-73.9891740",
+        "count" : "5"
+      }, {
+        "item" : "-73.9339000",
+        "count" : "5"
+      }, {
+        "item" : "-73.9518400",
+        "count" : "5"
+      }, {
+        "item" : "-73.9374200",
+        "count" : "5"
+      }, {
+        "item" : "-73.9177100",
+        "count" : "5"
+      }, {
+        "item" : "-73.8774300",
+        "count" : "5"
+      }, {
+        "item" : "-73.8906300",
+        "count" : "5"
+      } ],
+      "smallest" : "-74.2485700",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 579260135,
+    "name" : "On Street",
+    "dataTypeName" : "text",
+    "description" : "The street name for the location of the crash. ",
+    "fieldName" : "on_street",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 147247825,
+    "cachedContents" : {
+      "non_null" : "10718",
+      "largest" : "ZEREGA AVENUE",
+      "null" : "3036",
+      "top" : [ {
+        "item" : "BROADWAY",
+        "count" : "167"
+      }, {
+        "item" : "BELT PARKWAY",
+        "count" : "143"
+      }, {
+        "item" : "MAJOR DEEGAN EXPRESSWAY",
+        "count" : "98"
+      }, {
+        "item" : "LONG ISLAND EXPRESSWAY",
+        "count" : "96"
+      }, {
+        "item" : "GRAND CENTRAL PKWY",
+        "count" : "91"
+      }, {
+        "item" : "FDR DRIVE",
+        "count" : "91"
+      }, {
+        "item" : "BROOKLYN QUEENS EXPRESSWAY",
+        "count" : "78"
+      }, {
+        "item" : "CROSS ISLAND PARKWAY",
+        "count" : "77"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "67"
+      }, {
+        "item" : "HENRY HUDSON PARKWAY",
+        "count" : "66"
+      }, {
+        "item" : "ATLANTIC AVENUE",
+        "count" : "57"
+      }, {
+        "item" : "NORTHERN BOULEVARD",
+        "count" : "55"
+      }, {
+        "item" : "FLATBUSH AVENUE",
+        "count" : "54"
+      }, {
+        "item" : "JEROME AVENUE",
+        "count" : "51"
+      }, {
+        "item" : "BRUCKNER EXPRESSWAY",
+        "count" : "50"
+      }, {
+        "item" : "GRAND CONCOURSE",
+        "count" : "49"
+      }, {
+        "item" : "CROSS BRONX EXPY",
+        "count" : "46"
+      }, {
+        "item" : "BRONX RIVER PARKWAY",
+        "count" : "46"
+      }, {
+        "item" : "2 AVENUE",
+        "count" : "41"
+      }, {
+        "item" : "VAN WYCK EXPWY",
+        "count" : "40"
+      } ],
+      "smallest" : "100 ST",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : { }
+  }, {
+    "id" : 579260136,
+    "name" : "Cross Street",
+    "dataTypeName" : "text",
+    "description" : "The closest cross street name for the location of the crash. ",
+    "fieldName" : "cross_street",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 147247824,
+    "cachedContents" : {
+      "non_null" : "8116",
+      "largest" : "ZULETTE AVENUE",
+      "null" : "5638",
+      "top" : [ {
+        "item" : "BROADWAY",
+        "count" : "83"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "62"
+      }, {
+        "item" : "3 AVE",
+        "count" : "50"
+      }, {
+        "item" : "2 AVENUE",
+        "count" : "39"
+      }, {
+        "item" : "1 AVENUE",
+        "count" : "39"
+      }, {
+        "item" : "PARK AVENUE",
+        "count" : "38"
+      }, {
+        "item" : "2 AVE",
+        "count" : "33"
+      }, {
+        "item" : "5 AVENUE",
+        "count" : "32"
+      }, {
+        "item" : "AVENUE OF THE AMERICAS",
+        "count" : "31"
+      }, {
+        "item" : "LINDEN BOULEVARD",
+        "count" : "30"
+      }, {
+        "item" : "7 AVENUE",
+        "count" : "29"
+      }, {
+        "item" : "JAMAICA AVENUE",
+        "count" : "25"
+      }, {
+        "item" : "1 AVE",
+        "count" : "24"
+      }, {
+        "item" : "10 AVENUE",
+        "count" : "23"
+      }, {
+        "item" : "5 AVE",
+        "count" : "22"
+      }, {
+        "item" : "AVENUE J",
+        "count" : "22"
+      }, {
+        "item" : "NORTHERN BOULEVARD",
+        "count" : "21"
+      }, {
+        "item" : "8 AVENUE",
+        "count" : "21"
+      }, {
+        "item" : "SAINT NICHOLAS AVENUE",
+        "count" : "20"
+      }, {
+        "item" : "BRUCKNER BOULEVARD",
+        "count" : "19"
+      } ],
+      "smallest" : "10",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : { }
+  }, {
+    "id" : 579260137,
+    "name" : "Address",
+    "dataTypeName" : "text",
+    "description" : "If available, the street address of the crash location. ",
+    "fieldName" : "address",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 147247823,
+    "cachedContents" : {
+      "non_null" : "2577",
+      "largest" : "UTICA AVENUE",
+      "null" : "11177",
+      "top" : [ {
+        "item" : "107        EAST DRIVE",
+        "count" : "3"
+      }, {
+        "item" : "71         EAST DRIVE",
+        "count" : "3"
+      }, {
+        "item" : "450        FLATBUSH AVENUE",
+        "count" : "3"
+      }, {
+        "item" : "110-00     ROCKAWAY BLVD",
+        "count" : "3"
+      }, {
+        "item" : "101        EAST DRIVE",
+        "count" : "3"
+      }, {
+        "item" : "105        EAST DRIVE",
+        "count" : "3"
+      }, {
+        "item" : "153-70     SOUTH CONDUIT AVENUE",
+        "count" : "3"
+      }, {
+        "item" : "299        SOUTH STREET",
+        "count" : "3"
+      }, {
+        "item" : "79         WEST DRIVE",
+        "count" : "3"
+      }, {
+        "item" : "2480       EAST 69 STREET",
+        "count" : "2"
+      }, {
+        "item" : "1600       FULTON STREET",
+        "count" : "2"
+      }, {
+        "item" : "1598       FLATBUSH AVENUE",
+        "count" : "2"
+      }, {
+        "item" : "1          TRANSVERSE ROAD NUMBER TWO",
+        "count" : "2"
+      }, {
+        "item" : "225 E 57 ST",
+        "count" : "2"
+      }, {
+        "item" : "1752       SHORE PARKWAY",
+        "count" : "2"
+      }, {
+        "item" : "2575       JEROME AVENUE",
+        "count" : "2"
+      }, {
+        "item" : "150        UNION AVE",
+        "count" : "2"
+      }, {
+        "item" : "123        FLATBUSH AVENUE",
+        "count" : "2"
+      }, {
+        "item" : "135        WEST KINGSBRIDGE ROAD",
+        "count" : "2"
+      }, {
+        "item" : "151        WEST 34 STREET",
+        "count" : "2"
+      } ],
+      "smallest" : "0 IRVING PL",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : { }
+  }, {
+    "id" : 579260138,
+    "name" : "Highway Reference Marker",
+    "dataTypeName" : "text",
+    "description" : "The highway location reference marker for crashes on the freeway. ",
+    "fieldName" : "highway_reference_marker",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 147247822,
+    "cachedContents" : {
+      "non_null" : "1052",
+      "largest" : "9AX4M11069",
+      "null" : "12702",
+      "top" : [ {
+        "item" : "295IX5M12017",
+        "count" : "5"
+      }, {
+        "item" : "495IX5M14125",
+        "count" : "5"
+      }, {
+        "item" : "907LX4M12071",
+        "count" : "5"
+      }, {
+        "item" : "278IX2M24044",
+        "count" : "4"
+      }, {
+        "item" : "87IX1M11001",
+        "count" : "4"
+      }, {
+        "item" : "278IX1M54010",
+        "count" : "4"
+      }, {
+        "item" : "495IX5M14039",
+        "count" : "4"
+      }, {
+        "item" : "907DX5M23013",
+        "count" : "4"
+      }, {
+        "item" : "278IX6M13042",
+        "count" : "4"
+      }, {
+        "item" : "907HX1M11038",
+        "count" : "4"
+      }, {
+        "item" : "907BX5M22073",
+        "count" : "4"
+      }, {
+        "item" : "87IX1M11005",
+        "count" : "4"
+      }, {
+        "item" : "87IX1M12068",
+        "count" : "4"
+      }, {
+        "item" : "907DX5M24057",
+        "count" : "4"
+      }, {
+        "item" : "87IX1M12060",
+        "count" : "3"
+      }, {
+        "item" : "87IX1M12034",
+        "count" : "3"
+      }, {
+        "item" : "87IX1M11010",
+        "count" : "3"
+      }, {
+        "item" : "87IX1M12079",
+        "count" : "3"
+      }, {
+        "item" : "495IX5M14070",
+        "count" : "3"
+      }, {
+        "item" : "495IX5M13027",
+        "count" : "3"
+      } ],
+      "smallest" : "145B01003001",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : { }
+  }, {
+    "id" : 579260139,
+    "name" : "ZipCode",
+    "dataTypeName" : "text",
+    "description" : "The five digit postal code for the location of the crash. ",
+    "fieldName" : "zipcode",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 147247821,
+    "cachedContents" : {
+      "non_null" : "8072",
+      "largest" : "11694",
+      "null" : "5682",
+      "top" : [ {
+        "item" : "11236",
+        "count" : "136"
+      }, {
+        "item" : "11207",
+        "count" : "128"
+      }, {
+        "item" : "11212",
+        "count" : "119"
+      }, {
+        "item" : "11234",
+        "count" : "119"
+      }, {
+        "item" : "11203",
+        "count" : "118"
+      }, {
+        "item" : "10456",
+        "count" : "109"
+      }, {
+        "item" : "11230",
+        "count" : "104"
+      }, {
+        "item" : "11206",
+        "count" : "101"
+      }, {
+        "item" : "10467",
+        "count" : "100"
+      }, {
+        "item" : "11226",
+        "count" : "99"
+      }, {
+        "item" : "11101",
+        "count" : "98"
+      }, {
+        "item" : "10457",
+        "count" : "95"
+      }, {
+        "item" : "10019",
+        "count" : "91"
+      }, {
+        "item" : "10029",
+        "count" : "90"
+      }, {
+        "item" : "11208",
+        "count" : "90"
+      }, {
+        "item" : "10468",
+        "count" : "88"
+      }, {
+        "item" : "10453",
+        "count" : "86"
+      }, {
+        "item" : "10016",
+        "count" : "85"
+      }, {
+        "item" : "11385",
+        "count" : "85"
+      }, {
+        "item" : "10002",
+        "count" : "84"
+      } ],
+      "smallest" : "10000",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : { }
+  }, {
+    "id" : 579260140,
+    "name" : "Similar Fatalities & Severe Injuries (3Y Lookback)",
+    "dataTypeName" : "number",
+    "description" : "Number of fatalities and severe injuries resulting from crashes of the same type at the same location in the past three (3) years.",
+    "fieldName" : "similar_fatalities_severe",
+    "position" : 16,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147247820,
+    "cachedContents" : {
+      "non_null" : "11917",
+      "largest" : "9",
+      "null" : "1837",
+      "top" : [ {
+        "item" : "0",
+        "count" : "11100"
+      }, {
+        "item" : "1",
+        "count" : "609"
+      }, {
+        "item" : "2",
+        "count" : "152"
+      }, {
+        "item" : "3",
+        "count" : "25"
+      }, {
+        "item" : "4",
+        "count" : "20"
+      }, {
+        "item" : "6",
+        "count" : "5"
+      }, {
+        "item" : "5",
+        "count" : "3"
+      }, {
+        "item" : "9",
+        "count" : "2"
+      }, {
+        "item" : "7",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 579260141,
+    "name" : "Similar Fatalities & All Injuries (3Y Lookback)",
+    "dataTypeName" : "number",
+    "description" : "Number of fatalities and injuries resulting from crashes of the same type at the same location in the past three (3) years.",
+    "fieldName" : "similar_fatalities_all",
+    "position" : 17,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147247819,
+    "cachedContents" : {
+      "non_null" : "13310",
+      "largest" : "296",
+      "null" : "444",
+      "top" : [ {
+        "item" : "0",
+        "count" : "8110"
+      }, {
+        "item" : "1",
+        "count" : "1971"
+      }, {
+        "item" : "2",
+        "count" : "1117"
+      }, {
+        "item" : "3",
+        "count" : "541"
+      }, {
+        "item" : "4",
+        "count" : "450"
+      }, {
+        "item" : "5",
+        "count" : "225"
+      }, {
+        "item" : "6",
+        "count" : "188"
+      }, {
+        "item" : "8",
+        "count" : "120"
+      }, {
+        "item" : "7",
+        "count" : "106"
+      }, {
+        "item" : "10",
+        "count" : "77"
+      }, {
+        "item" : "9",
+        "count" : "56"
+      }, {
+        "item" : "12",
+        "count" : "46"
+      }, {
+        "item" : "11",
+        "count" : "44"
+      }, {
+        "item" : "14",
+        "count" : "35"
+      }, {
+        "item" : "13",
+        "count" : "30"
+      }, {
+        "item" : "15",
+        "count" : "24"
+      }, {
+        "item" : "18",
+        "count" : "23"
+      }, {
+        "item" : "20",
+        "count" : "19"
+      }, {
+        "item" : "16",
+        "count" : "18"
+      }, {
+        "item" : "17",
+        "count" : "11"
+      } ],
+      "smallest" : "0",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 579260142,
+    "name" : "Community Board",
+    "dataTypeName" : "number",
+    "description" : "Community Boards are volunteer-run neighborhood organizations that work on all kinds of issues pertinent to their communities, often working with elected city officials in doing so. Community Board members, ﻿who can be as young as 16﻿, are appointed by Borough Presidents and City Council representatives. They serve two-year terms. There are 59 Community Boards in NYC, each of which represents a unique geographical area, known as a Community District.",
+    "fieldName" : "community_board",
+    "position" : 18,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147748230,
+    "cachedContents" : {
+      "non_null" : "3871",
+      "largest" : "503",
+      "null" : "9883",
+      "top" : [ {
+        "item" : "105",
+        "count" : "144"
+      }, {
+        "item" : "301",
+        "count" : "117"
+      }, {
+        "item" : "212",
+        "count" : "115"
+      }, {
+        "item" : "305",
+        "count" : "103"
+      }, {
+        "item" : "312",
+        "count" : "103"
+      }, {
+        "item" : "209",
+        "count" : "99"
+      }, {
+        "item" : "318",
+        "count" : "99"
+      }, {
+        "item" : "104",
+        "count" : "98"
+      }, {
+        "item" : "501",
+        "count" : "98"
+      }, {
+        "item" : "201",
+        "count" : "96"
+      }, {
+        "item" : "314",
+        "count" : "95"
+      }, {
+        "item" : "407",
+        "count" : "87"
+      }, {
+        "item" : "111",
+        "count" : "85"
+      }, {
+        "item" : "401",
+        "count" : "85"
+      }, {
+        "item" : "316",
+        "count" : "80"
+      }, {
+        "item" : "203",
+        "count" : "80"
+      }, {
+        "item" : "317",
+        "count" : "77"
+      }, {
+        "item" : "103",
+        "count" : "76"
+      }, {
+        "item" : "408",
+        "count" : "76"
+      }, {
+        "item" : "412",
+        "count" : "74"
+      } ],
+      "smallest" : "101",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : { }
+  }, {
+    "id" : 579260143,
+    "name" : "Council District",
+    "dataTypeName" : "number",
+    "description" : "The City Council is the lawmaking body of NYC, on equal footing with the mayor in terms of governing power. Besides legislating, the Council has sole approval power over the city budget, and is the final decision-maker in land use matters. There are 51 City Council members in total, each representing a unique geographical area, called a Council District. To find your own Council District, go here.",
+    "fieldName" : "council_district",
+    "position" : 19,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147748227,
+    "cachedContents" : {
+      "non_null" : "3871",
+      "largest" : "51",
+      "null" : "9883",
+      "top" : [ {
+        "item" : "3",
+        "count" : "165"
+      }, {
+        "item" : "17",
+        "count" : "139"
+      }, {
+        "item" : "8",
+        "count" : "137"
+      }, {
+        "item" : "4",
+        "count" : "116"
+      }, {
+        "item" : "12",
+        "count" : "102"
+      }, {
+        "item" : "41",
+        "count" : "102"
+      }, {
+        "item" : "11",
+        "count" : "101"
+      }, {
+        "item" : "9",
+        "count" : "101"
+      }, {
+        "item" : "13",
+        "count" : "100"
+      }, {
+        "item" : "40",
+        "count" : "97"
+      }, {
+        "item" : "15",
+        "count" : "97"
+      }, {
+        "item" : "1",
+        "count" : "96"
+      }, {
+        "item" : "18",
+        "count" : "93"
+      }, {
+        "item" : "45",
+        "count" : "89"
+      }, {
+        "item" : "49",
+        "count" : "89"
+      }, {
+        "item" : "34",
+        "count" : "89"
+      }, {
+        "item" : "35",
+        "count" : "86"
+      }, {
+        "item" : "6",
+        "count" : "85"
+      }, {
+        "item" : "42",
+        "count" : "85"
+      }, {
+        "item" : "26",
+        "count" : "84"
+      } ],
+      "smallest" : "1",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 579260144,
+    "name" : "Building Identification Number (BIN)",
+    "dataTypeName" : "number",
+    "description" : "A unique 7-digit number assigned to every known building by the Department of City Planning (DCP), the first digit of which is the borough code. BINs allow city agencies to process and match building-related data easily and in a consistent manner. ",
+    "fieldName" : "bin",
+    "position" : 20,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147748231,
+    "cachedContents" : {
+      "non_null" : "2787",
+      "largest" : "5174401",
+      "null" : "10967",
+      "top" : [ {
+        "item" : "3000000",
+        "count" : "20"
+      }, {
+        "item" : "4000000",
+        "count" : "8"
+      }, {
+        "item" : "3428715",
+        "count" : "7"
+      }, {
+        "item" : "2000000",
+        "count" : "6"
+      }, {
+        "item" : "5000000",
+        "count" : "6"
+      }, {
+        "item" : "3396696",
+        "count" : "5"
+      }, {
+        "item" : "1000000",
+        "count" : "5"
+      }, {
+        "item" : "2014378",
+        "count" : "4"
+      }, {
+        "item" : "1079600",
+        "count" : "4"
+      }, {
+        "item" : "1004537",
+        "count" : "4"
+      }, {
+        "item" : "4457718",
+        "count" : "4"
+      }, {
+        "item" : "3339261",
+        "count" : "3"
+      }, {
+        "item" : "2084187",
+        "count" : "3"
+      }, {
+        "item" : "3171268",
+        "count" : "3"
+      }, {
+        "item" : "2047864",
+        "count" : "3"
+      }, {
+        "item" : "2094831",
+        "count" : "3"
+      }, {
+        "item" : "2009624",
+        "count" : "3"
+      }, {
+        "item" : "1084187",
+        "count" : "3"
+      }, {
+        "item" : "1063066",
+        "count" : "3"
+      }, {
+        "item" : "1012253",
+        "count" : "3"
+      } ],
+      "smallest" : "1000000",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 579260145,
+    "name" : "Borough Block Lot (BBL)",
+    "dataTypeName" : "number",
+    "description" : "A combination of three numeric codes -- a 1-digit borough number, a block number (up to 5 digits) and a lot number (up to 4 digits) -- designated and modified by the Department of Finance (DOF). BBLs are used by various city agencies to identify real estate for taxes, zoning, construction, and other purposes.",
+    "fieldName" : "bbl",
+    "position" : 21,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147748228,
+    "cachedContents" : {
+      "non_null" : "2787",
+      "largest" : "5200429999",
+      "null" : "10967",
+      "top" : [ {
+        "item" : "3021107501",
+        "count" : "7"
+      }, {
+        "item" : "1009720001",
+        "count" : "6"
+      }, {
+        "item" : "3075767501",
+        "count" : "5"
+      }, {
+        "item" : "2039447501",
+        "count" : "5"
+      }, {
+        "item" : "2032010030",
+        "count" : "4"
+      }, {
+        "item" : "1002410013",
+        "count" : "4"
+      }, {
+        "item" : "4115430002",
+        "count" : "4"
+      }, {
+        "item" : "3045900051",
+        "count" : "4"
+      }, {
+        "item" : "3080137501",
+        "count" : "4"
+      }, {
+        "item" : "4020180001",
+        "count" : "4"
+      }, {
+        "item" : "1017570020",
+        "count" : "4"
+      }, {
+        "item" : "3011170001",
+        "count" : "4"
+      }, {
+        "item" : "1003780039",
+        "count" : "4"
+      }, {
+        "item" : "2039230022",
+        "count" : "3"
+      }, {
+        "item" : "2036530050",
+        "count" : "3"
+      }, {
+        "item" : "2029260002",
+        "count" : "3"
+      }, {
+        "item" : "2022630019",
+        "count" : "3"
+      }, {
+        "item" : "2042550018",
+        "count" : "3"
+      }, {
+        "item" : "1021060320",
+        "count" : "3"
+      }, {
+        "item" : "1019640001",
+        "count" : "3"
+      } ],
+      "smallest" : "1000020002",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 579260146,
+    "name" : "Census Tract (2020)",
+    "dataTypeName" : "number",
+    "description" : "The Census Tract (Census 2020) field indicates the U.S. Census Tract where the building is located. Please note that as part of the geocoding process, leading and trailing zeros are dropped",
+    "fieldName" : "census_tract_2020_",
+    "position" : 22,
+    "renderTypeName" : "number",
+    "tableColumnId" : 147748229,
+    "cachedContents" : {
+      "non_null" : "3868",
+      "largest" : "161700",
+      "null" : "9886",
+      "top" : [ {
+        "item" : "143",
+        "count" : "45"
+      }, {
+        "item" : "119",
+        "count" : "16"
+      }, {
+        "item" : "222",
+        "count" : "16"
+      }, {
+        "item" : "38302",
+        "count" : "15"
+      }, {
+        "item" : "54",
+        "count" : "14"
+      }, {
+        "item" : "39",
+        "count" : "13"
+      }, {
+        "item" : "125",
+        "count" : "13"
+      }, {
+        "item" : "91",
+        "count" : "13"
+      }, {
+        "item" : "43",
+        "count" : "11"
+      }, {
+        "item" : "35",
+        "count" : "11"
+      }, {
+        "item" : "107001",
+        "count" : "11"
+      }, {
+        "item" : "166",
+        "count" : "11"
+      }, {
+        "item" : "67",
+        "count" : "10"
+      }, {
+        "item" : "87",
+        "count" : "10"
+      }, {
+        "item" : "96",
+        "count" : "10"
+      }, {
+        "item" : "295",
+        "count" : "10"
+      }, {
+        "item" : "426",
+        "count" : "10"
+      }, {
+        "item" : "242",
+        "count" : "10"
+      }, {
+        "item" : "133",
+        "count" : "10"
+      }, {
+        "item" : "213",
+        "count" : "10"
+      } ],
+      "smallest" : "2",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 579260147,
+    "name" : "Neighborhood Tabulation Area (NTA) (2020)",
+    "dataTypeName" : "text",
+    "description" : "NTAs are small area boundaries, created by the Department of City Planning (DCP) to aggregate population projections in a small area.. Each NTA approximates a minimum population of 15,000. While NTAs were initially created to support PlaNYC, the thirty-year (2000-2030) sustainability plan for NYC, NTAs are now also being used to present data from the Decennial Census and American Community Survey. NTA boundaries and their associated names do not definitively represent neighborhood boundaries.",
+    "fieldName" : "neighborhood_tabulation_area_nta_2020_",
+    "position" : 23,
+    "renderTypeName" : "text",
+    "tableColumnId" : 147748226,
+    "cachedContents" : {
+      "non_null" : "3868",
+      "largest" : "SI0391",
+      "null" : "9886",
+      "top" : [ {
+        "item" : "MN0502",
+        "count" : "89"
+      }, {
+        "item" : "BX0101",
+        "count" : "62"
+      }, {
+        "item" : "MN0401",
+        "count" : "55"
+      }, {
+        "item" : "BK0104",
+        "count" : "53"
+      }, {
+        "item" : "BK1602",
+        "count" : "46"
+      }, {
+        "item" : "BX1202",
+        "count" : "46"
+      }, {
+        "item" : "MN1102",
+        "count" : "46"
+      }, {
+        "item" : "BK1803",
+        "count" : "46"
+      }, {
+        "item" : "QN1001",
+        "count" : "45"
+      }, {
+        "item" : "MN6491",
+        "count" : "44"
+      }, {
+        "item" : "BX0901",
+        "count" : "44"
+      }, {
+        "item" : "BK1202",
+        "count" : "44"
+      }, {
+        "item" : "MN0402",
+        "count" : "43"
+      }, {
+        "item" : "BK1401",
+        "count" : "43"
+      }, {
+        "item" : "BK0601",
+        "count" : "43"
+      }, {
+        "item" : "MN0501",
+        "count" : "41"
+      }, {
+        "item" : "BK1601",
+        "count" : "38"
+      }, {
+        "item" : "BX1201",
+        "count" : "36"
+      }, {
+        "item" : "QN0301",
+        "count" : "36"
+      }, {
+        "item" : "BK1801",
+        "count" : "35"
+      } ],
+      "smallest" : "BK0101",
+      "count" : "13754",
+      "cardinality" : "13754"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "attachments" : [ {
+      "filename" : "SIRTA_Data_Dictionary.xlsx",
+      "assetId" : "40e3d0ac-564b-4dfa-822f-86a703800660",
+      "name" : "SIRTA_Data_Dictionary.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "No",
+        "Update Frequency Details" : "Report update frequency designated by Local Law 49 of 2021.",
+        "Date Made Public" : "8/7/2023",
+        "Update Frequency" : "Quarterly",
+        "Data Change Frequency" : "Daily"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Transportation (DOT)"
+      }
+    },
+    "rowLabel" : "serious vehicular injury that was analyzed and reported at a particular location as part of SIRTA.",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "serious", "injury", "tracking", "analysis", "vehicle", "response" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}
